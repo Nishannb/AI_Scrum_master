@@ -1,0 +1,148 @@
+New log file
+2025-04-07 14:36:44 - root - INFO - Logging initialized at 2025-04-07 14:36:44.226127 with level DEBUG
+2025-04-07 14:36:49 - root - INFO - Logging initialized at 2025-04-07 14:36:49.664304 with level DEBUG
+2025-04-07 14:36:50 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-07 14:36:51 - __main__ - INFO - Loaded supervisor address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:36:51 - __main__ - INFO - Loaded supervisor address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:37:07 - root - INFO - Logging initialized at 2025-04-07 14:37:07.139858 with level DEBUG
+2025-04-07 14:37:09 - root - INFO - Logging initialized at 2025-04-07 14:37:09.642790 with level DEBUG
+2025-04-07 14:38:26 - root - INFO - Logging initialized at 2025-04-07 14:38:26.658752 with level DEBUG
+2025-04-07 14:38:27 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-07 14:38:27 - __main__ - INFO - Removed old agent_addresses.json
+2025-04-07 14:38:27 - __main__ - INFO - Removed old agent_addresses.json
+2025-04-07 14:38:28 - src.agents.supervisor_agent - INFO - Initialized SupervisorAgent
+2025-04-07 14:38:28 - __main__ - INFO - Starting Scrum Master Supervisor agent...
+2025-04-07 14:38:28 - __main__ - INFO - Starting Scrum Master Supervisor agent...
+2025-04-07 14:38:28 - src.agents.supervisor_agent - INFO - Starting agent with address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:38:28 - src.agents.supervisor_agent - INFO - Agent inspector available at https://agentverse.ai/inspect/?uri=http%3A//127.0.0.1%3A8000&address=agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:38:33 - __main__ - INFO - Agent Scrum Master Supervisor is running with address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:38:33 - __main__ - INFO - Agent Scrum Master Supervisor is running with address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:38:33 - __main__ - INFO - Saved agent address for supervisor to agent_addresses.json
+2025-04-07 14:38:33 - __main__ - INFO - Saved agent address for supervisor to agent_addresses.json
+2025-04-07 14:38:34 - __main__ - WARNING - Agent Scrum Master Supervisor may not be properly registered in AgentVerse
+2025-04-07 14:38:34 - __main__ - WARNING - Agent Scrum Master Supervisor may not be properly registered in AgentVerse
+2025-04-07 14:38:35 - root - INFO - Logging initialized at 2025-04-07 14:38:35.858896 with level DEBUG
+2025-04-07 14:38:36 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-07 14:38:36 - __main__ - INFO - Loaded supervisor address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:38:36 - __main__ - INFO - Loaded supervisor address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:38:39 - src.agents.data_collection_agent - INFO - Initialized DataCollectionAgent
+2025-04-07 14:38:39 - src.agents.data_collection_agent - INFO - Trello client initialized successfully
+2025-04-07 14:38:39 - __main__ - INFO - Starting Data Collection Specialist agent...
+2025-04-07 14:38:39 - __main__ - INFO - Starting Data Collection Specialist agent...
+2025-04-07 14:38:39 - src.agents.data_collection_agent - INFO - Starting agent with address: agent1qfyuheqntdzggaggwhre2902rc6qfmmhl9yyt64a2l7ly69ry8zksjle6rc
+2025-04-07 14:38:39 - src.agents.data_collection_agent - INFO - Starting DataCollectionAgent agent1qfyuheqntdzggaggwhre2902rc6qfmmhl9yyt64a2l7ly69ry8zksjle6rc
+2025-04-07 14:38:39 - src.agents.data_collection_agent - INFO - Agent endpoints: [AgentEndpoint(url='https://127.0.0.1:8001/submit', weight=1)]
+2025-04-07 14:38:39 - src.agents.data_collection_agent - INFO - Agent inspector available at https://agentverse.ai/inspect/?uri=http%3A//127.0.0.1%3A8001&address=agent1qfyuheqntdzggaggwhre2902rc6qfmmhl9yyt64a2l7ly69ry8zksjle6rc
+2025-04-07 14:38:44 - __main__ - INFO - Agent Data Collection Specialist is running with address: agent1qfyuheqntdzggaggwhre2902rc6qfmmhl9yyt64a2l7ly69ry8zksjle6rc
+2025-04-07 14:38:44 - __main__ - INFO - Agent Data Collection Specialist is running with address: agent1qfyuheqntdzggaggwhre2902rc6qfmmhl9yyt64a2l7ly69ry8zksjle6rc
+2025-04-07 14:38:44 - __main__ - INFO - Saved agent address for data_collection to agent_addresses.json
+2025-04-07 14:38:44 - __main__ - INFO - Saved agent address for data_collection to agent_addresses.json
+2025-04-07 14:38:45 - __main__ - WARNING - Agent Data Collection Specialist may not be properly registered in AgentVerse
+2025-04-07 14:38:45 - __main__ - WARNING - Agent Data Collection Specialist may not be properly registered in AgentVerse
+2025-04-07 14:38:51 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-07 14:38:51 - __main__ - INFO - Starting Sprint Analysis Specialist agent...
+2025-04-07 14:38:51 - __main__ - INFO - Starting Sprint Analysis Specialist agent...
+2025-04-07 14:38:51 - src.agents.analysis_agent - INFO - Starting agent with address: agent1q2jmxtc97vsdr8pm4kaqtggdchqh2lygvv5v2zc5w3dncle0n9es67r39la
+2025-04-07 14:38:51 - src.agents.analysis_agent - INFO - Agent inspector available at https://agentverse.ai/inspect/?uri=http%3A//127.0.0.1%3A8002&address=agent1q2jmxtc97vsdr8pm4kaqtggdchqh2lygvv5v2zc5w3dncle0n9es67r39la
+2025-04-07 14:38:56 - __main__ - INFO - Agent Sprint Analysis Specialist is running with address: agent1q2jmxtc97vsdr8pm4kaqtggdchqh2lygvv5v2zc5w3dncle0n9es67r39la
+2025-04-07 14:38:56 - __main__ - INFO - Agent Sprint Analysis Specialist is running with address: agent1q2jmxtc97vsdr8pm4kaqtggdchqh2lygvv5v2zc5w3dncle0n9es67r39la
+2025-04-07 14:38:56 - __main__ - INFO - Saved agent address for analysis to agent_addresses.json
+2025-04-07 14:38:56 - __main__ - INFO - Saved agent address for analysis to agent_addresses.json
+2025-04-07 14:38:58 - __main__ - WARNING - Agent Sprint Analysis Specialist may not be properly registered in AgentVerse
+2025-04-07 14:38:58 - __main__ - WARNING - Agent Sprint Analysis Specialist may not be properly registered in AgentVerse
+2025-04-07 14:39:03 - __main__ - ERROR - Failed to deploy agent Report Generation Specialist: name 'get_logger' is not defined
+2025-04-07 14:39:03 - __main__ - ERROR - Failed to deploy agent Report Generation Specialist: name 'get_logger' is not defined
+2025-04-07 14:39:03 - __main__ - ERROR - Failed to deploy agents: name 'get_logger' is not defined
+2025-04-07 14:39:03 - __main__ - ERROR - Failed to deploy agents: name 'get_logger' is not defined
+2025-04-07 14:39:03 - __main__ - INFO - Saved final agent addresses to agent_addresses.json
+2025-04-07 14:39:03 - __main__ - INFO - Saved final agent addresses to agent_addresses.json
+2025-04-07 14:39:03 - __main__ - ERROR - Deployment failed: name 'get_logger' is not defined
+2025-04-07 14:39:03 - __main__ - ERROR - Deployment failed: name 'get_logger' is not defined
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Agent._schedule_registration() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/agent.py:831> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-30' coro=<Agent._schedule_registration() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/agent.py:831> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-45' coro=<Agent._schedule_registration() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/agent.py:831> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Agent.run_async() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/agent.py:1204> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<Agent._process_message_queue() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/agent.py:1237> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<Dispenser.run() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/communication.py:59> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-29' coro=<Agent.run_async() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/agent.py:1204> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-44' coro=<Agent.run_async() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/agent.py:1204> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-32' coro=<Agent._process_message_queue() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/agent.py:1237> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-31' coro=<Dispenser.run() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/communication.py:59> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-47' coro=<Agent._process_message_queue() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/agent.py:1237> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:39:03 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-46' coro=<Dispenser.run() running at /Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/uagents/communication.py:59> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2025-04-07 14:40:26 - root - INFO - Logging initialized at 2025-04-07 14:40:26.107928 with level DEBUG
+2025-04-07 14:40:26 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-07 14:40:26 - __main__ - INFO - Removed old agent_addresses.json
+2025-04-07 14:40:26 - __main__ - INFO - Removed old agent_addresses.json
+2025-04-07 14:40:28 - src.agents.supervisor_agent - INFO - Initialized SupervisorAgent
+2025-04-07 14:40:28 - __main__ - INFO - Starting Scrum Master Supervisor agent...
+2025-04-07 14:40:28 - __main__ - INFO - Starting Scrum Master Supervisor agent...
+2025-04-07 14:40:28 - src.agents.supervisor_agent - INFO - Starting agent with address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:40:28 - src.agents.supervisor_agent - INFO - Agent inspector available at https://agentverse.ai/inspect/?uri=http%3A//127.0.0.1%3A8000&address=agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:40:33 - __main__ - INFO - Agent Scrum Master Supervisor is running with address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:40:33 - __main__ - INFO - Agent Scrum Master Supervisor is running with address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:40:33 - __main__ - INFO - Saved agent address for supervisor to agent_addresses.json
+2025-04-07 14:40:33 - __main__ - INFO - Saved agent address for supervisor to agent_addresses.json
+2025-04-07 14:40:33 - __main__ - WARNING - Agent Scrum Master Supervisor may not be properly registered in AgentVerse
+2025-04-07 14:40:33 - __main__ - WARNING - Agent Scrum Master Supervisor may not be properly registered in AgentVerse
+2025-04-07 14:40:39 - src.agents.data_collection_agent - INFO - Initialized DataCollectionAgent
+2025-04-07 14:40:39 - src.agents.data_collection_agent - INFO - Trello client initialized successfully
+2025-04-07 14:40:39 - __main__ - INFO - Starting Data Collection Specialist agent...
+2025-04-07 14:40:39 - __main__ - INFO - Starting Data Collection Specialist agent...
+2025-04-07 14:40:39 - src.agents.data_collection_agent - INFO - Starting agent with address: agent1qfyuheqntdzggaggwhre2902rc6qfmmhl9yyt64a2l7ly69ry8zksjle6rc
+2025-04-07 14:40:39 - src.agents.data_collection_agent - INFO - Starting DataCollectionAgent agent1qfyuheqntdzggaggwhre2902rc6qfmmhl9yyt64a2l7ly69ry8zksjle6rc
+2025-04-07 14:40:39 - src.agents.data_collection_agent - INFO - Agent endpoints: [AgentEndpoint(url='https://127.0.0.1:8001/submit', weight=1)]
+2025-04-07 14:40:39 - src.agents.data_collection_agent - INFO - Agent inspector available at https://agentverse.ai/inspect/?uri=http%3A//127.0.0.1%3A8001&address=agent1qfyuheqntdzggaggwhre2902rc6qfmmhl9yyt64a2l7ly69ry8zksjle6rc
+2025-04-07 14:40:44 - __main__ - INFO - Agent Data Collection Specialist is running with address: agent1qfyuheqntdzggaggwhre2902rc6qfmmhl9yyt64a2l7ly69ry8zksjle6rc
+2025-04-07 14:40:44 - __main__ - INFO - Agent Data Collection Specialist is running with address: agent1qfyuheqntdzggaggwhre2902rc6qfmmhl9yyt64a2l7ly69ry8zksjle6rc
+2025-04-07 14:40:44 - __main__ - INFO - Saved agent address for data_collection to agent_addresses.json
+2025-04-07 14:40:44 - __main__ - INFO - Saved agent address for data_collection to agent_addresses.json
+2025-04-07 14:40:45 - __main__ - WARNING - Agent Data Collection Specialist may not be properly registered in AgentVerse
+2025-04-07 14:40:45 - __main__ - WARNING - Agent Data Collection Specialist may not be properly registered in AgentVerse
+2025-04-07 14:40:50 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-07 14:40:50 - __main__ - INFO - Starting Sprint Analysis Specialist agent...
+2025-04-07 14:40:50 - __main__ - INFO - Starting Sprint Analysis Specialist agent...
+2025-04-07 14:40:50 - src.agents.analysis_agent - INFO - Starting agent with address: agent1q2jmxtc97vsdr8pm4kaqtggdchqh2lygvv5v2zc5w3dncle0n9es67r39la
+2025-04-07 14:40:50 - src.agents.analysis_agent - INFO - Agent inspector available at https://agentverse.ai/inspect/?uri=http%3A//127.0.0.1%3A8002&address=agent1q2jmxtc97vsdr8pm4kaqtggdchqh2lygvv5v2zc5w3dncle0n9es67r39la
+2025-04-07 14:40:55 - __main__ - INFO - Agent Sprint Analysis Specialist is running with address: agent1q2jmxtc97vsdr8pm4kaqtggdchqh2lygvv5v2zc5w3dncle0n9es67r39la
+2025-04-07 14:40:55 - __main__ - INFO - Agent Sprint Analysis Specialist is running with address: agent1q2jmxtc97vsdr8pm4kaqtggdchqh2lygvv5v2zc5w3dncle0n9es67r39la
+2025-04-07 14:40:55 - __main__ - INFO - Saved agent address for analysis to agent_addresses.json
+2025-04-07 14:40:55 - __main__ - INFO - Saved agent address for analysis to agent_addresses.json
+2025-04-07 14:40:57 - __main__ - WARNING - Agent Sprint Analysis Specialist may not be properly registered in AgentVerse
+2025-04-07 14:40:57 - __main__ - WARNING - Agent Sprint Analysis Specialist may not be properly registered in AgentVerse
+2025-04-07 14:41:02 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-07 14:41:02 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-07 14:41:02 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-07 14:41:02 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-07 14:41:02 - __main__ - INFO - Starting Report Generation Specialist agent...
+2025-04-07 14:41:02 - __main__ - INFO - Starting Report Generation Specialist agent...
+2025-04-07 14:41:07 - __main__ - INFO - Agent Report Generation Specialist is running with address: agent1q02veg75zfh3r684nje5hs6nws5x8rvxhhqrzyt5kspk4kk05f2my097exz
+2025-04-07 14:41:07 - __main__ - INFO - Agent Report Generation Specialist is running with address: agent1q02veg75zfh3r684nje5hs6nws5x8rvxhhqrzyt5kspk4kk05f2my097exz
+2025-04-07 14:41:07 - __main__ - INFO - Saved agent address for reporting to agent_addresses.json
+2025-04-07 14:41:07 - __main__ - INFO - Saved agent address for reporting to agent_addresses.json
+2025-04-07 14:41:08 - __main__ - WARNING - Agent Report Generation Specialist may not be properly registered in AgentVerse
+2025-04-07 14:41:08 - __main__ - WARNING - Agent Report Generation Specialist may not be properly registered in AgentVerse
+2025-04-07 14:41:08 - __main__ - INFO - All agents deployed successfully
+2025-04-07 14:41:08 - __main__ - INFO - All agents deployed successfully
+2025-04-07 14:41:08 - __main__ - INFO - Agent addresses saved to agent_addresses.json
+2025-04-07 14:41:08 - __main__ - INFO - Agent addresses saved to agent_addresses.json
+2025-04-07 14:41:44 - root - INFO - Logging initialized at 2025-04-07 14:41:44.207481 with level DEBUG
+2025-04-07 14:41:45 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-07 14:41:46 - __main__ - INFO - Loaded supervisor address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:41:46 - __main__ - INFO - Loaded supervisor address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:43:35 - root - INFO - Logging initialized at 2025-04-07 14:43:35.909786 with level DEBUG
+2025-04-07 14:43:36 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-04-07 14:43:37 - __main__ - INFO - Loaded supervisor address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x
+2025-04-07 14:43:37 - __main__ - INFO - Loaded supervisor address: agent1qtrpvncrxncy0zeer84xzqz3vz5v90r33mgmlkj9tauqft2wfjmkcelx80x

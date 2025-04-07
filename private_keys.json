@@ -1,0 +1,26 @@
+{
+    "Scrum Master Supervisor": {
+        "identity_key": "1666b8a2af232cb2dbb178637c08e8dae9779735cff87672451421437a2be610",
+        "wallet_key": "tX8MNWYCGuWRtCD5AyCuYLtC1iCVYE0Z03x3jYEBlbA="
+    },
+    "Data Collection Specialist": {
+        "identity_key": "ba17ead95e0aabd2b8c790e55d72e3c747bde2d73eb13abb06a7455a4a18a43a",
+        "wallet_key": "ZyZQWnK3R1nlGGbx+ONMMiEuALLrA8QJITFf5IoLOEo="
+    },
+    "Sprint Analysis Specialist": {
+        "identity_key": "8114b9e6ad89eb1abd91bea9cbbbc85df89cbd6d3b2e404333d6bc68c5b41dab",
+        "wallet_key": "4DSeMj94hjJeqPOPoj/vCt5monSPtNBMtLUiWaYQ+i4="
+    },
+    "Sprint Reporting Specialist": {
+        "identity_key": "383fc57cfaa79634db4427a43a44283d89a1feb0a967a605a47ae3c00b8182f1",
+        "wallet_key": "OpTH1rEOBY1AKdqefoo3hMlxIN0Z3lP4z1dlNhKv5aI="
+    },
+    "Test Agent": {
+        "identity_key": "8e8f936e4949c6634e966c1d35a1d665b809a4fcd797ee5a4fb010ecae0377ac",
+        "wallet_key": "fVMuxh74pZIksvViMeA7pr0WL15+REAKZPK8OB1Djjw="
+    },
+    "Report Generation Specialist": {
+        "identity_key": "2e017f1410076962c7056478cc262c8b673f67c03aeb4005cc09a4dc0a1ce978",
+        "wallet_key": "/rFQH3jQfCBjbA6fnNIlg57KxKZi5uJKJtPQZZkTgV8="
+    }
+}
