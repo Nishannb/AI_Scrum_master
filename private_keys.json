@@ -22,5 +22,9 @@
     "Report Generation Specialist": {
         "identity_key": "2e017f1410076962c7056478cc262c8b673f67c03aeb4005cc09a4dc0a1ce978",
         "wallet_key": "/rFQH3jQfCBjbA6fnNIlg57KxKZi5uJKJtPQZZkTgV8="
+    },
+    "PDF Report Specialist": {
+        "identity_key": "c031e2f20d317891e4180f54ca545b9da81df2cfcb8081189e3df848f7be424b",
+        "wallet_key": "j+ybyhLXzV1kSbdegOGe70g+pLol0wYgzG7+wHWBfm8="
     }
 }

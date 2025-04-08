@@ -3488,3 +3488,1774 @@ ValueError: "AnalysisAgent" object has no field "cards"
 2025-04-07 17:52:04 - root - INFO - Logging initialized at 2025-04-07 17:52:04.619752 with level INFO
 2025-04-07 17:53:07 - root - INFO - Logging initialized at 2025-04-07 17:53:07.854642 with level INFO
 2025-04-07 17:54:46 - root - INFO - Logging initialized at 2025-04-07 17:54:46.114987 with level INFO
+2025-04-08 12:25:27 - root - INFO - Logging initialized at 2025-04-08 12:25:27.813480 with level INFO
+2025-04-08 12:25:38 - root - INFO - Logging initialized at 2025-04-08 12:25:38.749320 with level INFO
+2025-04-08 12:25:40 - __main__ - INFO - Starting report generation...
+2025-04-08 12:25:40 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:25:40 - __main__ - ERROR - Error generating report: AnalysisAgent.__init__() got an unexpected keyword argument 'trello_tools'
+2025-04-08 12:25:40 - __main__ - ERROR - Report generation failed
+2025-04-08 12:26:17 - root - INFO - Logging initialized at 2025-04-08 12:26:17.613313 with level INFO
+2025-04-08 12:26:20 - __main__ - INFO - Starting report generation...
+2025-04-08 12:26:20 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:26:21 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:26:21 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:26:21 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:26:21 - src.utils.pdf_generator - INFO - Downloading DejaVuSans fonts...
+2025-04-08 12:26:22 - src.utils.pdf_generator - INFO - Fonts downloaded successfully
+2025-04-08 12:26:22 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:26:22 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:26:22 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:26:22 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:26:23 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:26:23 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:26:23 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:26:23 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:26:23 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:26:24 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:26:24 - src.utils.report_generator - ERROR - Error generating velocity chart: 'int' object has no attribute 'get'
+2025-04-08 12:26:24 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:26:24 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:26:24 - src.utils.report_generator - ERROR - Error preparing report content: 'int' object has no attribute 'get'
+2025-04-08 12:26:24 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:26:24 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:26:24 - __main__ - ERROR - Error generating report: ReportPDFAgent.__init__() got an unexpected keyword argument 'output_dir'
+2025-04-08 12:26:24 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:26:52 - root - INFO - Logging initialized at 2025-04-08 12:26:52.058687 with level INFO
+2025-04-08 12:26:54 - __main__ - INFO - Starting report generation...
+2025-04-08 12:26:54 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:26:55 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:26:56 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:26:56 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:26:56 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:26:56 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:26:56 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:26:56 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:26:56 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:26:57 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:26:57 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:26:57 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:26:57 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:26:57 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:26:57 - src.utils.report_generator - ERROR - Error generating velocity chart: 'int' object has no attribute 'get'
+2025-04-08 12:26:57 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:26:58 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:26:58 - src.utils.report_generator - ERROR - Error preparing report content: 'int' object has no attribute 'get'
+2025-04-08 12:26:58 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:26:58 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:26:58 - __main__ - ERROR - Error generating report: ReportPDFAgent.__init__() got an unexpected keyword argument 'mailbox'
+2025-04-08 12:26:58 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:27:28 - root - INFO - Logging initialized at 2025-04-08 12:27:28.863134 with level INFO
+2025-04-08 12:27:31 - __main__ - INFO - Starting report generation...
+2025-04-08 12:27:31 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:27:32 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:27:32 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:27:32 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:27:33 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:27:33 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:27:33 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:27:33 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:27:33 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:27:33 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:27:33 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:27:33 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:27:33 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:27:34 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:27:34 - src.utils.report_generator - ERROR - Error generating velocity chart: name 'analysis_data' is not defined
+2025-04-08 12:27:34 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:27:34 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:27:34 - src.utils.report_generator - ERROR - Error preparing report content: 'int' object has no attribute 'get'
+2025-04-08 12:27:34 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:27:34 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:27:35 - __main__ - ERROR - Error generating report: expected str, bytes or os.PathLike object, not NoneType
+2025-04-08 12:27:35 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:28:11 - root - INFO - Logging initialized at 2025-04-08 12:28:11.794512 with level INFO
+2025-04-08 12:28:14 - __main__ - INFO - Starting report generation...
+2025-04-08 12:28:14 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:28:15 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:28:16 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:28:16 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:28:16 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:28:16 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:28:16 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:28:16 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:28:16 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:28:16 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:28:17 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:28:17 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:28:17 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:28:17 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:28:17 - src.utils.report_generator - ERROR - Error generating velocity chart: name 'sprint_data' is not defined
+2025-04-08 12:28:17 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:28:17 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:28:17 - src.utils.report_generator - ERROR - Error preparing report content: 'int' object has no attribute 'get'
+2025-04-08 12:28:17 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:28:17 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:28:18 - __main__ - ERROR - Error generating report: expected str, bytes or os.PathLike object, not NoneType
+2025-04-08 12:28:18 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:29:04 - root - INFO - Logging initialized at 2025-04-08 12:29:04.142257 with level INFO
+2025-04-08 12:29:06 - __main__ - INFO - Starting report generation...
+2025-04-08 12:29:06 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:29:07 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:29:08 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:29:08 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:29:08 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:29:08 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:29:08 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:29:08 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:29:08 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:29:09 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:29:09 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:29:09 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:29:09 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:29:09 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:29:09 - src.utils.report_generator - ERROR - Error generating velocity chart: 'ReportGenerator' object has no attribute 'chart_generator'
+2025-04-08 12:29:09 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:29:09 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:29:09 - src.utils.report_generator - ERROR - Error preparing report content: 'int' object has no attribute 'get'
+2025-04-08 12:29:09 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:29:09 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:29:10 - __main__ - ERROR - Error generating report: expected str, bytes or os.PathLike object, not NoneType
+2025-04-08 12:29:10 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:30:07 - root - INFO - Logging initialized at 2025-04-08 12:30:07.138378 with level INFO
+2025-04-08 12:30:09 - __main__ - INFO - Starting report generation...
+2025-04-08 12:30:09 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:30:10 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:30:11 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:30:11 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:30:11 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:30:11 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:30:11 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:30:11 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:30:11 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:30:12 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:30:12 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:30:12 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:30:12 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:30:12 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:30:13 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:30:13 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:30:13 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:30:13 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:30:13 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:30:13 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:30:14 - __main__ - ERROR - Error generating report: expected str, bytes or os.PathLike object, not NoneType
+2025-04-08 12:30:14 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:31:00 - root - INFO - Logging initialized at 2025-04-08 12:31:00.129031 with level INFO
+2025-04-08 12:31:02 - __main__ - INFO - Starting report generation...
+2025-04-08 12:31:02 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:31:03 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:31:04 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:31:04 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:31:04 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:31:04 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:31:04 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:31:04 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:31:04 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:31:04 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:31:05 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:31:05 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:31:05 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:31:05 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:31:05 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:31:05 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:31:06 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:31:06 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:31:06 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:31:06 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:31:07 - __main__ - ERROR - Error generating report: expected str, bytes or os.PathLike object, not NoneType
+2025-04-08 12:31:07 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:32:06 - root - INFO - Logging initialized at 2025-04-08 12:32:06.015809 with level INFO
+2025-04-08 12:32:08 - __main__ - INFO - Starting report generation...
+2025-04-08 12:32:08 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:32:09 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:32:10 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:32:10 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:32:10 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:32:10 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:32:10 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:32:10 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:32:10 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:32:10 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:32:11 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:32:11 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:32:11 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:32:11 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:32:12 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:32:12 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:32:12 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:32:12 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:32:12 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:32:12 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:32:13 - __main__ - ERROR - Error generating report: expected str, bytes or os.PathLike object, not NoneType
+2025-04-08 12:32:13 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:32:37 - root - INFO - Logging initialized at 2025-04-08 12:32:37.567963 with level INFO
+2025-04-08 12:32:39 - __main__ - INFO - Starting report generation...
+2025-04-08 12:32:39 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:32:40 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:32:41 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:32:41 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:32:41 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:32:41 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:32:41 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:32:41 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:32:41 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:32:41 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:32:41 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:32:42 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:32:42 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:32:42 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:32:42 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:32:43 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:32:43 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:32:43 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:32:43 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:32:43 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:32:44 - __main__ - ERROR - Error generating report: expected str, bytes or os.PathLike object, not NoneType
+2025-04-08 12:32:44 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:33:18 - root - INFO - Logging initialized at 2025-04-08 12:33:18.805843 with level INFO
+2025-04-08 12:33:21 - __main__ - INFO - Starting report generation...
+2025-04-08 12:33:21 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:33:22 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:33:23 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:33:23 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:33:23 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:33:23 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:33:23 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:33:23 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:33:23 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:33:23 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:33:23 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:33:24 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:33:24 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:33:24 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:33:24 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:33:24 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:33:24 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:33:25 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:33:25 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:33:25 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:33:25 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:33:25 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:33:25 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 12:33:25 - __main__ - ERROR - Error generating report: 'str' object has no attribute 'schema_json'
+2025-04-08 12:33:25 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:33:49 - root - INFO - Logging initialized at 2025-04-08 12:33:49.338387 with level INFO
+2025-04-08 12:33:51 - __main__ - INFO - Starting report generation...
+2025-04-08 12:33:51 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:33:52 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:33:53 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:33:53 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:33:53 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:33:53 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:33:53 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:33:53 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:33:53 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:33:53 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:33:54 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:33:54 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:33:54 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:33:54 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:33:54 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:33:54 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:33:54 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:33:55 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:33:55 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:33:55 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:33:55 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:33:55 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:33:55 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 12:33:55 - __main__ - ERROR - Error generating report: 'str' object has no attribute 'schema_json'
+2025-04-08 12:33:55 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:34:49 - root - INFO - Logging initialized at 2025-04-08 12:34:49.642937 with level INFO
+2025-04-08 12:34:52 - __main__ - INFO - Starting report generation...
+2025-04-08 12:34:52 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:34:53 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:34:54 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:34:54 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:34:54 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:34:54 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:34:54 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:34:54 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:34:54 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:34:54 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:34:54 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:34:55 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:34:55 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:34:55 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:34:55 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:34:55 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:34:55 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:34:56 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:34:56 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:34:56 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:34:56 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:34:56 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:34:56 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 12:34:56 - src.utils.pdf_generator - ERROR - Error generating PDF: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 12:34:56 - src.utils.pdf_generator - ERROR - Not a TrueType or OpenType font (bad sfntVersion)
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 235, in generate_pdf_from_markdown
+    pdf.add_font('DejaVuSans', '', regular_font, uni=True)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 2042, in add_font
+    self.fonts[fontkey] = TTFFont(self, font_file_path, fontkey, style)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fonts.py", line 250, in __init__
+    self.ttfont = ttLib.TTFont(
+                  ^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 12:34:56 - src.utils.pdf_generator - ERROR - Error processing report: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 12:34:56 - src.utils.pdf_generator - ERROR - Not a TrueType or OpenType font (bad sfntVersion)
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 356, in process_report
+    pdf_path = self.generate_pdf_from_markdown(markdown_file)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 235, in generate_pdf_from_markdown
+    pdf.add_font('DejaVuSans', '', regular_font, uni=True)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 2042, in add_font
+    self.fonts[fontkey] = TTFFont(self, font_file_path, fontkey, style)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fonts.py", line 250, in __init__
+    self.ttfont = ttLib.TTFont(
+                  ^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 12:34:56 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': False, 'error': 'Error processing report: Not a TrueType or OpenType font (bad sfntVersion)'}
+2025-04-08 12:34:56 - __main__ - ERROR - Failed to generate PDF: Error processing report: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 12:34:56 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:34:56 - __main__ - ERROR - Report generation failed
+2025-04-08 12:35:15 - root - INFO - Logging initialized at 2025-04-08 12:35:15.445206 with level INFO
+2025-04-08 12:35:17 - __main__ - INFO - Starting report generation...
+2025-04-08 12:35:17 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:35:19 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:35:19 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:35:19 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:35:19 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:35:19 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:35:19 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:35:19 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:35:19 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:35:20 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:35:20 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:35:20 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:35:20 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:35:20 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:35:21 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:35:21 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:35:21 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:35:21 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:35:21 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:35:21 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:35:21 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:35:21 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:35:21 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 12:35:21 - src.utils.pdf_generator - ERROR - Error generating PDF: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 12:35:21 - src.utils.pdf_generator - ERROR - Not a TrueType or OpenType font (bad sfntVersion)
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 235, in generate_pdf_from_markdown
+    pdf.add_font('DejaVuSans', '', regular_font, uni=True)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 2042, in add_font
+    self.fonts[fontkey] = TTFFont(self, font_file_path, fontkey, style)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fonts.py", line 250, in __init__
+    self.ttfont = ttLib.TTFont(
+                  ^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 12:35:21 - src.utils.pdf_generator - ERROR - Error processing report: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 12:35:21 - src.utils.pdf_generator - ERROR - Not a TrueType or OpenType font (bad sfntVersion)
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 356, in process_report
+    pdf_path = self.generate_pdf_from_markdown(markdown_file)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 235, in generate_pdf_from_markdown
+    pdf.add_font('DejaVuSans', '', regular_font, uni=True)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 2042, in add_font
+    self.fonts[fontkey] = TTFFont(self, font_file_path, fontkey, style)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fonts.py", line 250, in __init__
+    self.ttfont = ttLib.TTFont(
+                  ^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 12:35:21 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': False, 'error': 'Error processing report: Not a TrueType or OpenType font (bad sfntVersion)'}
+2025-04-08 12:35:21 - __main__ - ERROR - Failed to generate PDF: Error processing report: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 12:35:21 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:35:21 - __main__ - ERROR - Report generation failed
+2025-04-08 12:35:46 - root - INFO - Logging initialized at 2025-04-08 12:35:46.224551 with level INFO
+2025-04-08 12:35:48 - __main__ - INFO - Starting report generation...
+2025-04-08 12:35:48 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:35:49 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:35:50 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:35:50 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:35:50 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:35:50 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:35:50 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:35:50 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:35:50 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:35:50 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:35:51 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:35:51 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:35:51 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:35:51 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:35:51 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:35:52 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:35:52 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:35:52 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:35:52 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:35:52 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:35:52 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:35:52 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:35:52 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 12:35:52 - src.utils.pdf_generator - ERROR - Error generating PDF: Character "⚠" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2025-04-08 12:35:52 - src.utils.pdf_generator - ERROR - Character "⚠" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 4700, in normalize_text
+    return text.encode(self.core_fonts_encoding).decode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 0-1: ordinal not in range(256)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 261, in generate_pdf_from_markdown
+    pdf.multi_cell(170, 7, line)  # 170mm width (A4 width - margins)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 215, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/deprecation.py", line 32, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 3970, in multi_cell
+    text = self.normalize_text(text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 4702, in normalize_text
+    raise FPDFUnicodeEncodingException(
+fpdf.errors.FPDFUnicodeEncodingException: Character "⚠" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2025-04-08 12:35:52 - src.utils.pdf_generator - ERROR - Error processing report: Character "⚠" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2025-04-08 12:35:52 - src.utils.pdf_generator - ERROR - Character "⚠" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 4700, in normalize_text
+    return text.encode(self.core_fonts_encoding).decode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 0-1: ordinal not in range(256)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 345, in process_report
+    pdf_path = self.generate_pdf_from_markdown(markdown_file)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 261, in generate_pdf_from_markdown
+    pdf.multi_cell(170, 7, line)  # 170mm width (A4 width - margins)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 215, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/deprecation.py", line 32, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 3970, in multi_cell
+    text = self.normalize_text(text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 4702, in normalize_text
+    raise FPDFUnicodeEncodingException(
+fpdf.errors.FPDFUnicodeEncodingException: Character "⚠" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2025-04-08 12:35:52 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': False, 'error': 'Error processing report: Character "⚠" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.'}
+2025-04-08 12:35:52 - __main__ - ERROR - Failed to generate PDF: Error processing report: Character "⚠" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2025-04-08 12:35:52 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:35:52 - __main__ - ERROR - Report generation failed
+2025-04-08 12:36:37 - root - INFO - Logging initialized at 2025-04-08 12:36:37.458191 with level INFO
+2025-04-08 12:36:40 - __main__ - INFO - Starting report generation...
+2025-04-08 12:36:40 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:36:41 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:36:41 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:36:41 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:36:41 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:36:41 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:36:41 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:36:41 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:36:41 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:36:42 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:36:42 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:36:43 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:36:43 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:36:43 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:36:43 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:36:43 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:36:43 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:36:44 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:36:44 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:36:44 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:36:44 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:36:44 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:36:44 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 12:36:44 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 12:36:45 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744083404/sprint_reports/202504/sprint_report_20250408_v9bozn.pdf
+2025-04-08 12:36:45 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744083404/sprint_reports/202504/sprint_report_20250408_v9bozn.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_v9bozn', 'created_at': '2025-04-08T03:36:44Z'}
+2025-04-08 12:36:45 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744083404/sprint_reports/202504/sprint_report_20250408_v9bozn.pdf
+2025-04-08 12:36:45 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:36:45 - __main__ - INFO - Report generation completed successfully
+2025-04-08 12:49:12 - root - INFO - Logging initialized at 2025-04-08 12:49:12.714875 with level INFO
+2025-04-08 12:49:14 - __main__ - INFO - Starting report generation...
+2025-04-08 12:49:14 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 12:49:15 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 12:49:16 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:49:16 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:49:16 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 12:49:16 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 12:49:16 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 12:49:16 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 12:49:16 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 12:49:17 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 12:49:17 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 12:49:17 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 12:49:17 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 12:49:17 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 12:49:18 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 12:49:18 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 12:49:18 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 12:49:18 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 12:49:18 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 12:49:18 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:49:18 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 12:49:18 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 12:49:18 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 12:49:18 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 12:49:19 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744084159/sprint_reports/202504/sprint_report_20250408_sazxi8.pdf
+2025-04-08 12:49:19 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744084159/sprint_reports/202504/sprint_report_20250408_sazxi8.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_sazxi8', 'created_at': '2025-04-08T03:49:19Z'}
+2025-04-08 12:49:19 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744084159/sprint_reports/202504/sprint_report_20250408_sazxi8.pdf
+2025-04-08 12:49:19 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 12:49:19 - __main__ - INFO - Report generation completed successfully
+2025-04-08 13:34:16 - root - INFO - Logging initialized at 2025-04-08 13:34:16.615241 with level INFO
+2025-04-08 13:34:18 - __main__ - INFO - Starting report generation...
+2025-04-08 13:34:18 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 13:34:20 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 13:34:20 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:34:20 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:34:20 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 13:34:20 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 13:34:20 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 13:34:20 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 13:34:20 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 13:34:21 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 13:34:21 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 13:34:21 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 13:34:21 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 13:34:21 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 13:34:22 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 13:34:22 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 13:34:22 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 13:34:22 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 13:34:22 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 13:34:22 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:34:22 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:34:22 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:34:22 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 13:34:22 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 13:34:23 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744086863/sprint_reports/202504/sprint_report_20250408_dmbd8d.pdf
+2025-04-08 13:34:23 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744086863/sprint_reports/202504/sprint_report_20250408_dmbd8d.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_dmbd8d', 'created_at': '2025-04-08T04:34:23Z'}
+2025-04-08 13:34:23 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744086863/sprint_reports/202504/sprint_report_20250408_dmbd8d.pdf
+2025-04-08 13:34:23 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:34:23 - __main__ - INFO - Report generation completed successfully
+2025-04-08 13:36:29 - root - INFO - Logging initialized at 2025-04-08 13:36:29.231994 with level INFO
+2025-04-08 13:36:31 - __main__ - INFO - Starting report generation...
+2025-04-08 13:36:31 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 13:36:33 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 13:36:33 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:36:33 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:36:33 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 13:36:33 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 13:36:33 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 13:36:33 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 13:36:33 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 13:36:34 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 13:36:34 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 13:36:34 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 13:36:34 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 13:36:34 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 13:36:35 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 13:36:35 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 13:36:35 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 13:36:35 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card [Integration] CRM Syncing with HubSpot – Requested by sales for better lead tracking.: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card Define MVP Scope for Multi-User Access – What’s included in v1?: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card Break Down Payment Processing Issue – Logs and reports under analysis.: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card [Bug] Payment Processing Delay – Reported by support, needs investigation.: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card UI Mockups for Dashboard Redesign – UX reviewed, waiting for front-end.: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card Wireframes for Customer Dashboard Redesign – UX team working on mockups.: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card Technical Feasibility for HubSpot Integration – Engineering reviewing API limitations.: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card Bug Fix: Payment Processing Delay – Logs analyzed, fix being implemented.: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card API Design for CRM Syncing – Endpoint details finalized.: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card Front-End Development for Dashboard Redesign – UI in progress.: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - WARNING - Error parsing due date for card Bug Fix: Payment Processing Delay – Logs analyzed, fix being implemented.: can't subtract offset-naive and offset-aware datetimes
+2025-04-08 13:36:35 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 13:36:35 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:36:35 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:36:35 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:36:35 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 13:36:35 - src.utils.pdf_generator - ERROR - Error generating PDF: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 13:36:35 - src.utils.pdf_generator - ERROR - Not a TrueType or OpenType font (bad sfntVersion)
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 290, in generate_pdf_from_markdown
+    pdf.add_font('DejaVu', '', os.path.join(self.font_dir, "DejaVuSans.ttf"), uni=True)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 2042, in add_font
+    self.fonts[fontkey] = TTFFont(self, font_file_path, fontkey, style)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fonts.py", line 250, in __init__
+    self.ttfont = ttLib.TTFont(
+                  ^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 13:36:35 - src.utils.pdf_generator - ERROR - Error processing report: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 13:36:35 - src.utils.pdf_generator - ERROR - Not a TrueType or OpenType font (bad sfntVersion)
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 507, in process_report
+    pdf_path = self.generate_pdf_from_markdown(markdown_file)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 290, in generate_pdf_from_markdown
+    pdf.add_font('DejaVu', '', os.path.join(self.font_dir, "DejaVuSans.ttf"), uni=True)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 2042, in add_font
+    self.fonts[fontkey] = TTFFont(self, font_file_path, fontkey, style)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fonts.py", line 250, in __init__
+    self.ttfont = ttLib.TTFont(
+                  ^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/ttFont.py", line 189, in __init__
+    self.reader = SFNTReader(file, checkChecksums, fontNumber=fontNumber)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fontTools/ttLib/sfnt.py", line 86, in __init__
+    raise TTLibError("Not a TrueType or OpenType font (bad sfntVersion)")
+fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 13:36:35 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': False, 'error': 'Error processing report: Not a TrueType or OpenType font (bad sfntVersion)'}
+2025-04-08 13:36:35 - __main__ - ERROR - Failed to generate PDF: Error processing report: Not a TrueType or OpenType font (bad sfntVersion)
+2025-04-08 13:36:35 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:36:35 - __main__ - ERROR - Report generation failed
+2025-04-08 13:37:44 - root - INFO - Logging initialized at 2025-04-08 13:37:44.642352 with level INFO
+2025-04-08 13:37:47 - __main__ - INFO - Starting report generation...
+2025-04-08 13:37:47 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 13:37:48 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 13:37:49 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:37:49 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:37:49 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 13:37:49 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 13:37:49 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 13:37:49 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 13:37:49 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 13:37:49 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 13:37:49 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 13:37:50 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 13:37:50 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 13:37:50 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 13:37:50 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 13:37:50 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 13:37:50 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 13:37:51 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 13:37:51 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 13:37:51 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:37:51 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:37:51 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:37:51 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 13:37:51 - src.utils.pdf_generator - ERROR - Error generating PDF: Character "•" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2025-04-08 13:37:51 - src.utils.pdf_generator - ERROR - Character "•" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 4700, in normalize_text
+    return text.encode(self.core_fonts_encoding).decode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u2022' in position 0: ordinal not in range(256)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 349, in generate_pdf_from_markdown
+    pdf.cell(5, 7, "•", 0, 0)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 215, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/deprecation.py", line 32, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 3099, in cell
+    text = self.normalize_text(text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 4702, in normalize_text
+    raise FPDFUnicodeEncodingException(
+fpdf.errors.FPDFUnicodeEncodingException: Character "•" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2025-04-08 13:37:51 - src.utils.pdf_generator - ERROR - Error processing report: Character "•" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2025-04-08 13:37:51 - src.utils.pdf_generator - ERROR - Character "•" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 4700, in normalize_text
+    return text.encode(self.core_fonts_encoding).decode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u2022' in position 0: ordinal not in range(256)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 505, in process_report
+    pdf_path = self.generate_pdf_from_markdown(markdown_file)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 349, in generate_pdf_from_markdown
+    pdf.cell(5, 7, "•", 0, 0)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 215, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/deprecation.py", line 32, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 3099, in cell
+    text = self.normalize_text(text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 4702, in normalize_text
+    raise FPDFUnicodeEncodingException(
+fpdf.errors.FPDFUnicodeEncodingException: Character "•" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2025-04-08 13:37:51 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': False, 'error': 'Error processing report: Character "•" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.'}
+2025-04-08 13:37:51 - __main__ - ERROR - Failed to generate PDF: Error processing report: Character "•" at index 0 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+2025-04-08 13:37:51 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:37:51 - __main__ - ERROR - Report generation failed
+2025-04-08 13:38:32 - root - INFO - Logging initialized at 2025-04-08 13:38:32.045366 with level INFO
+2025-04-08 13:38:34 - __main__ - INFO - Starting report generation...
+2025-04-08 13:38:34 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 13:38:35 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 13:38:36 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:38:36 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:38:36 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 13:38:36 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 13:38:36 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 13:38:36 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 13:38:36 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 13:38:37 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 13:38:37 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 13:38:37 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 13:38:37 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 13:38:37 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 13:38:38 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 13:38:38 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 13:38:38 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 13:38:38 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 13:38:38 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 13:38:38 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:38:38 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:38:38 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:38:38 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 13:38:40 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 13:38:42 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744087121/sprint_reports/202504/sprint_report_20250408_rovnha.pdf
+2025-04-08 13:38:42 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744087121/sprint_reports/202504/sprint_report_20250408_rovnha.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_rovnha', 'created_at': '2025-04-08T04:38:41Z'}
+2025-04-08 13:38:42 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744087121/sprint_reports/202504/sprint_report_20250408_rovnha.pdf
+2025-04-08 13:38:42 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:38:42 - __main__ - INFO - Report generation completed successfully
+2025-04-08 13:56:58 - root - INFO - Logging initialized at 2025-04-08 13:56:58.221194 with level INFO
+2025-04-08 13:57:01 - __main__ - INFO - Starting report generation...
+2025-04-08 13:57:01 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 13:57:02 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 13:57:02 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:57:02 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:57:02 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 13:57:02 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 13:57:02 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 13:57:02 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 13:57:02 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 13:57:03 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 13:57:03 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 13:57:03 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 13:57:03 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 13:57:03 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 13:57:04 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 13:57:04 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 13:57:04 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 13:57:04 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 13:57:04 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 13:57:04 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:57:04 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:57:04 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:57:04 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 13:57:06 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 13:57:08 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744088227/sprint_reports/202504/sprint_report_20250408_pcyigi.pdf
+2025-04-08 13:57:08 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744088227/sprint_reports/202504/sprint_report_20250408_pcyigi.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_pcyigi', 'created_at': '2025-04-08T04:57:07Z'}
+2025-04-08 13:57:08 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744088227/sprint_reports/202504/sprint_report_20250408_pcyigi.pdf
+2025-04-08 13:57:08 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:57:08 - __main__ - INFO - Report generation completed successfully
+2025-04-08 13:58:23 - root - INFO - Logging initialized at 2025-04-08 13:58:23.597270 with level INFO
+2025-04-08 13:58:26 - __main__ - INFO - Starting report generation...
+2025-04-08 13:58:26 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 13:58:27 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 13:58:27 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:58:27 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:58:27 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 13:58:27 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 13:58:27 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 13:58:27 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 13:58:27 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 13:58:28 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 13:58:28 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 13:58:28 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 13:58:28 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 13:58:28 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 13:58:29 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 13:58:29 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 13:58:29 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 13:58:29 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 13:58:29 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 13:58:29 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:58:29 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 13:58:29 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 13:58:29 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 13:58:29 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 13:58:31 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 13:58:33 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744088313/sprint_reports/202504/sprint_report_20250408_gvnblg.pdf
+2025-04-08 13:58:33 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744088313/sprint_reports/202504/sprint_report_20250408_gvnblg.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_gvnblg', 'created_at': '2025-04-08T04:58:33Z'}
+2025-04-08 13:58:33 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744088313/sprint_reports/202504/sprint_report_20250408_gvnblg.pdf
+2025-04-08 13:58:33 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 13:58:33 - __main__ - INFO - Report generation completed successfully
+2025-04-08 14:11:23 - root - INFO - Logging initialized at 2025-04-08 14:11:23.241982 with level INFO
+2025-04-08 14:11:26 - __main__ - INFO - Starting report generation...
+2025-04-08 14:11:26 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 14:11:27 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 14:11:27 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 14:11:27 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 14:11:27 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 14:11:27 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 14:11:27 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 14:11:27 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 14:11:27 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 14:11:28 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 14:11:28 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 14:11:28 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 14:11:28 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 14:11:28 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 14:11:29 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 14:11:29 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 14:11:29 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 14:11:29 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 14:11:29 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 14:11:29 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 14:11:29 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 14:11:29 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 14:11:29 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 14:11:29 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 14:11:30 - src.utils.pdf_generator - ERROR - Error generating PDF: Not enough horizontal space to render a single character
+2025-04-08 14:11:30 - src.utils.pdf_generator - ERROR - Not enough horizontal space to render a single character
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 528, in generate_pdf_from_markdown
+    pdf.multi_cell(0, 7, w_line)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 215, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/deprecation.py", line 32, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 3993, in multi_cell
+    text_line = multi_line_break.get_line()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/line_break.py", line 772, in get_line
+    raise FPDFException(
+fpdf.errors.FPDFException: Not enough horizontal space to render a single character
+2025-04-08 14:11:30 - src.utils.pdf_generator - ERROR - Error processing report: Not enough horizontal space to render a single character
+2025-04-08 14:11:30 - src.utils.pdf_generator - ERROR - Not enough horizontal space to render a single character
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 659, in process_report
+    pdf_path = self.generate_pdf_from_markdown(markdown_file)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/pdf_generator.py", line 528, in generate_pdf_from_markdown
+    pdf.multi_cell(0, 7, w_line)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 215, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/deprecation.py", line 32, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/fpdf.py", line 3993, in multi_cell
+    text_line = multi_line_break.get_line()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/fpdf/line_break.py", line 772, in get_line
+    raise FPDFException(
+fpdf.errors.FPDFException: Not enough horizontal space to render a single character
+2025-04-08 14:11:30 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': False, 'error': 'Error processing report: Not enough horizontal space to render a single character'}
+2025-04-08 14:11:30 - __main__ - ERROR - Failed to generate PDF: Error processing report: Not enough horizontal space to render a single character
+2025-04-08 14:11:30 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 14:11:30 - __main__ - ERROR - Report generation failed
+2025-04-08 14:12:16 - root - INFO - Logging initialized at 2025-04-08 14:12:16.465227 with level INFO
+2025-04-08 14:12:18 - __main__ - INFO - Starting report generation...
+2025-04-08 14:12:18 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 14:12:20 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 14:12:20 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 14:12:20 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 14:12:20 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 14:12:20 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 14:12:20 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 14:12:20 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 14:12:20 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 14:12:21 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 14:12:21 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 14:12:21 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 14:12:21 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 14:12:21 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 14:12:22 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 14:12:22 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 14:12:22 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 14:12:22 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 14:12:22 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 14:12:22 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 14:12:22 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 14:12:22 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 14:12:22 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 14:12:22 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 14:12:23 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 14:12:23 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 14:12:23 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 14:12:24 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 14:12:24 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 14:12:26 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744089145/sprint_reports/202504/sprint_report_20250408_fkdmkk.pdf
+2025-04-08 14:12:26 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744089145/sprint_reports/202504/sprint_report_20250408_fkdmkk.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_fkdmkk', 'created_at': '2025-04-08T05:12:25Z'}
+2025-04-08 14:12:26 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744089145/sprint_reports/202504/sprint_report_20250408_fkdmkk.pdf
+2025-04-08 14:12:26 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 14:12:26 - __main__ - INFO - Report generation completed successfully
+2025-04-08 15:37:41 - root - INFO - Logging initialized at 2025-04-08 15:37:41.440491 with level INFO
+2025-04-08 15:37:43 - __main__ - INFO - Starting report generation...
+2025-04-08 15:37:43 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 15:37:44 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 15:37:45 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 15:37:45 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 15:37:45 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 15:37:45 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 15:37:45 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 15:37:45 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 15:37:45 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 15:37:45 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 15:37:46 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 15:37:46 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 15:37:46 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 15:37:46 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 15:37:47 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 15:37:47 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 15:37:47 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 15:37:47 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 15:37:47 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 15:37:47 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 15:37:47 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 15:37:47 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 15:37:47 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 15:37:47 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 15:37:48 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:37:48 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:37:48 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:37:49 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:37:49 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 15:37:51 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744094270/sprint_reports/202504/sprint_report_20250408_ikravc.pdf
+2025-04-08 15:37:51 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744094270/sprint_reports/202504/sprint_report_20250408_ikravc.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_ikravc', 'created_at': '2025-04-08T06:37:50Z'}
+2025-04-08 15:37:51 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744094270/sprint_reports/202504/sprint_report_20250408_ikravc.pdf
+2025-04-08 15:37:51 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 15:37:51 - __main__ - INFO - Report generation completed successfully
+2025-04-08 15:45:29 - root - INFO - Logging initialized at 2025-04-08 15:45:29.669344 with level INFO
+2025-04-08 15:45:32 - __main__ - INFO - Starting report generation...
+2025-04-08 15:45:32 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 15:45:35 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 15:45:36 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 15:45:36 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 15:45:36 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 15:45:36 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 15:45:36 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 15:45:36 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 15:45:36 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 15:45:36 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 15:45:36 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 15:45:37 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 15:45:37 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 15:45:37 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 15:45:37 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 15:45:37 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 15:45:37 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 15:45:38 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 15:45:38 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 15:45:38 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 15:45:38 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 15:45:38 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 15:45:38 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 15:45:38 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 15:45:38 - src.utils.pdf_generator - WARNING - Error with text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:45:38 - src.utils.pdf_generator - WARNING - Error with text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:45:38 - src.utils.pdf_generator - WARNING - Error with text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:45:38 - src.utils.pdf_generator - WARNING - Error with text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:45:39 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 15:45:41 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744094741/sprint_reports/202504/sprint_report_20250408_upuoju.pdf
+2025-04-08 15:45:41 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744094741/sprint_reports/202504/sprint_report_20250408_upuoju.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_upuoju', 'created_at': '2025-04-08T06:45:41Z'}
+2025-04-08 15:45:41 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744094741/sprint_reports/202504/sprint_report_20250408_upuoju.pdf
+2025-04-08 15:45:41 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 15:45:41 - __main__ - INFO - Report generation completed successfully
+2025-04-08 15:46:48 - root - INFO - Logging initialized at 2025-04-08 15:46:48.642957 with level INFO
+2025-04-08 15:46:51 - __main__ - INFO - Starting report generation...
+2025-04-08 15:46:51 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 15:46:52 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 15:46:53 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 15:46:53 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 15:46:53 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 15:46:53 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 15:46:53 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 15:46:53 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 15:46:53 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 15:46:53 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 15:46:53 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 15:46:53 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 15:46:53 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 15:46:53 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 15:46:54 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 15:46:54 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 15:46:54 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 15:46:54 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 15:46:54 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 15:46:54 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 15:46:54 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 15:46:54 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 15:46:54 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 15:46:54 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 15:46:54 - src.utils.pdf_generator - WARNING - Error with text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:46:54 - src.utils.pdf_generator - WARNING - Error with text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:46:54 - src.utils.pdf_generator - WARNING - Error with text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:46:54 - src.utils.pdf_generator - WARNING - Error with text wrapping: Not enough horizontal space to render a single character
+2025-04-08 15:46:56 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 15:46:58 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744094818/sprint_reports/202504/sprint_report_20250408_sk9y37.pdf
+2025-04-08 15:46:58 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744094818/sprint_reports/202504/sprint_report_20250408_sk9y37.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_sk9y37', 'created_at': '2025-04-08T06:46:58Z'}
+2025-04-08 15:46:58 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744094818/sprint_reports/202504/sprint_report_20250408_sk9y37.pdf
+2025-04-08 15:46:58 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 15:46:58 - __main__ - INFO - Report generation completed successfully
+2025-04-08 15:55:06 - root - INFO - Logging initialized at 2025-04-08 15:55:06.597118 with level INFO
+2025-04-08 15:56:02 - root - INFO - Logging initialized at 2025-04-08 15:56:02.671696 with level INFO
+2025-04-08 15:56:04 - __main__ - INFO - Starting report generation...
+2025-04-08 15:56:04 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 15:56:06 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 15:56:06 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 15:56:06 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 15:56:06 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 15:56:06 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 15:56:06 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 15:56:06 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 15:56:06 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 15:56:07 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 15:56:07 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 15:56:08 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 15:56:08 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 15:56:08 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 15:56:08 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 15:56:08 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 15:56:08 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 15:56:09 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 15:56:09 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 15:56:09 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 15:56:09 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 15:56:09 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 15:56:09 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 15:56:09 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 15:56:10 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 15:56:12 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744095372/sprint_reports/202504/sprint_report_20250408_efbv0f.pdf
+2025-04-08 15:56:12 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744095372/sprint_reports/202504/sprint_report_20250408_efbv0f.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_efbv0f', 'created_at': '2025-04-08T06:56:12Z'}
+2025-04-08 15:56:12 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744095372/sprint_reports/202504/sprint_report_20250408_efbv0f.pdf
+2025-04-08 15:56:12 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 15:56:12 - __main__ - INFO - Report generation completed successfully
+2025-04-08 16:48:30 - root - INFO - Logging initialized at 2025-04-08 16:48:30.473927 with level INFO
+2025-04-08 16:49:18 - root - INFO - Logging initialized at 2025-04-08 16:49:18.368536 with level INFO
+2025-04-08 16:49:21 - __main__ - INFO - Starting report generation...
+2025-04-08 16:49:21 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 16:49:23 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 16:49:24 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 16:49:24 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 16:49:24 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 16:49:24 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 16:49:24 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 16:49:24 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 16:49:24 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 16:49:24 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 16:49:24 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 16:49:25 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 16:49:25 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 16:49:25 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 16:49:25 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 16:49:25 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 16:49:25 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 16:49:26 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 16:49:26 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 16:49:26 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 16:49:26 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 16:49:26 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 16:49:26 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 16:49:26 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 16:49:26 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:49:27 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:49:27 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:49:27 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:49:27 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 16:49:29 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744098569/sprint_reports/202504/sprint_report_20250408_fcwm4z.pdf
+2025-04-08 16:49:29 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744098569/sprint_reports/202504/sprint_report_20250408_fcwm4z.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_fcwm4z', 'created_at': '2025-04-08T07:49:29Z'}
+2025-04-08 16:49:29 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744098569/sprint_reports/202504/sprint_report_20250408_fcwm4z.pdf
+2025-04-08 16:49:29 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 16:49:29 - __main__ - INFO - Report generation completed successfully
+2025-04-08 16:50:22 - root - INFO - Logging initialized at 2025-04-08 16:50:22.037264 with level INFO
+2025-04-08 16:50:24 - __main__ - INFO - Starting report generation...
+2025-04-08 16:50:24 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 16:50:25 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 16:50:26 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 16:50:26 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 16:50:26 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 16:50:26 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 16:50:26 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 16:50:26 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 16:50:26 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 16:50:26 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 16:50:27 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 16:50:27 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 16:50:27 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 16:50:27 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 16:50:27 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 16:50:28 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 16:50:28 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 16:50:28 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 16:50:28 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 16:50:28 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 16:50:28 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 16:50:28 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 16:50:28 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 16:50:28 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 16:50:28 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:50:29 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:50:29 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:50:29 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:50:29 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 16:50:32 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744098631/sprint_reports/202504/sprint_report_20250408_bxtub7.pdf
+2025-04-08 16:50:32 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744098631/sprint_reports/202504/sprint_report_20250408_bxtub7.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_bxtub7', 'created_at': '2025-04-08T07:50:31Z'}
+2025-04-08 16:50:32 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744098631/sprint_reports/202504/sprint_report_20250408_bxtub7.pdf
+2025-04-08 16:50:32 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 16:50:32 - __main__ - INFO - Report generation completed successfully
+2025-04-08 16:50:37 - root - INFO - Logging initialized at 2025-04-08 16:50:37.371613 with level INFO
+2025-04-08 16:50:39 - __main__ - INFO - Starting report generation...
+2025-04-08 16:50:39 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 16:50:41 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 16:50:41 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 16:50:41 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 16:50:41 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 16:50:41 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 16:50:41 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 16:50:41 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 16:50:41 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 16:50:41 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 16:50:42 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 16:50:42 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 16:50:42 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 16:50:42 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 16:50:42 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 16:50:43 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 16:50:43 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 16:50:43 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 16:50:43 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 16:50:43 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 16:50:43 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 16:50:43 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 16:50:43 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 16:50:43 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 16:50:43 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:50:44 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:50:44 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:50:44 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:50:44 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 16:50:47 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744098646/sprint_reports/202504/sprint_report_20250408_zjysfr.pdf
+2025-04-08 16:50:47 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744098646/sprint_reports/202504/sprint_report_20250408_zjysfr.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_zjysfr', 'created_at': '2025-04-08T07:50:46Z'}
+2025-04-08 16:50:47 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744098646/sprint_reports/202504/sprint_report_20250408_zjysfr.pdf
+2025-04-08 16:50:47 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 16:50:47 - __main__ - INFO - Report generation completed successfully
+2025-04-08 16:59:08 - root - INFO - Logging initialized at 2025-04-08 16:59:08.667743 with level INFO
+2025-04-08 16:59:11 - __main__ - INFO - Starting report generation...
+2025-04-08 16:59:11 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 16:59:12 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 16:59:12 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 16:59:12 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 16:59:12 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 16:59:12 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 16:59:12 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 16:59:12 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 16:59:12 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 16:59:13 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 16:59:13 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 16:59:13 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 16:59:13 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 16:59:13 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 16:59:14 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 16:59:14 - src.utils.chart_generator - INFO - Generating velocity chart at 
+2025-04-08 16:59:14 - src.utils.chart_generator - ERROR - Error generating velocity chart: name 'sprint_name' is not defined
+2025-04-08 16:59:14 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 16:59:14 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 16:59:14 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 16:59:14 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 16:59:14 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 16:59:14 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 16:59:14 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 16:59:14 - src.utils.pdf_generator - INFO - Found 3 images in markdown file
+2025-04-08 16:59:14 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:59:14 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:59:15 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:59:15 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 16:59:15 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 16:59:17 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744099157/sprint_reports/202504/sprint_report_20250408_aku7sv.pdf
+2025-04-08 16:59:17 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744099157/sprint_reports/202504/sprint_report_20250408_aku7sv.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_aku7sv', 'created_at': '2025-04-08T07:59:17Z'}
+2025-04-08 16:59:17 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744099157/sprint_reports/202504/sprint_report_20250408_aku7sv.pdf
+2025-04-08 16:59:17 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 16:59:17 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:14:30 - root - INFO - Logging initialized at 2025-04-08 17:14:30.117721 with level INFO
+2025-04-08 17:14:32 - __main__ - INFO - Starting report generation...
+2025-04-08 17:14:32 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:14:33 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:14:34 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:14:34 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:14:34 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:14:34 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:14:34 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:14:34 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:14:34 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:14:35 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:14:35 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:14:35 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:14:35 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:14:35 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:14:36 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 17:14:36 - src.utils.chart_generator - INFO - Generating velocity chart at 
+2025-04-08 17:14:36 - src.utils.chart_generator - ERROR - Error generating velocity chart: name 'sprint_name' is not defined
+2025-04-08 17:14:36 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:14:36 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 17:14:36 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:14:36 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:14:36 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:14:36 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:14:36 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:14:36 - src.utils.pdf_generator - INFO - Found 3 images in markdown file
+2025-04-08 17:14:36 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:14:36 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:14:37 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:14:37 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:14:37 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:14:39 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100079/sprint_reports/202504/sprint_report_20250408_fqz6jk.pdf
+2025-04-08 17:14:39 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100079/sprint_reports/202504/sprint_report_20250408_fqz6jk.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_fqz6jk', 'created_at': '2025-04-08T08:14:39Z'}
+2025-04-08 17:14:39 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100079/sprint_reports/202504/sprint_report_20250408_fqz6jk.pdf
+2025-04-08 17:14:39 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:14:39 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:23:01 - root - INFO - Logging initialized at 2025-04-08 17:23:01.038179 with level INFO
+2025-04-08 17:26:23 - root - INFO - Logging initialized at 2025-04-08 17:26:23.189892 with level INFO
+2025-04-08 17:26:24 - __main__ - INFO - Starting report generation...
+2025-04-08 17:26:24 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:26:25 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:26:26 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:26:26 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:26:26 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:26:26 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:26:26 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:26:26 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:26:26 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:26:26 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:26:27 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:26:27 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:26:27 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:26:27 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:26:28 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 17:26:28 - src.utils.chart_generator - INFO - Generating velocity chart at 
+2025-04-08 17:26:28 - src.utils.chart_generator - ERROR - Error generating velocity chart: name 'sprint_name' is not defined
+2025-04-08 17:26:28 - src.utils.chart_generator - ERROR - name 'sprint_name' is not defined
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/chart_generator.py", line 120, in generate_velocity_chart
+    sprint_title = f" - {sprint_name}" if sprint_name else ""
+                                          ^^^^^^^^^^^
+NameError: name 'sprint_name' is not defined
+2025-04-08 17:26:28 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:26:28 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 17:26:28 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:26:28 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:26:28 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:26:28 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:26:28 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:26:28 - src.utils.pdf_generator - INFO - Found 3 images in markdown file
+2025-04-08 17:26:28 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:26:28 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:26:29 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:26:29 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:26:29 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:26:31 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100791/sprint_reports/202504/sprint_report_20250408_ueu0iz.pdf
+2025-04-08 17:26:31 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100791/sprint_reports/202504/sprint_report_20250408_ueu0iz.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_ueu0iz', 'created_at': '2025-04-08T08:26:31Z'}
+2025-04-08 17:26:31 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100791/sprint_reports/202504/sprint_report_20250408_ueu0iz.pdf
+2025-04-08 17:26:31 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:26:31 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:27:46 - root - INFO - Logging initialized at 2025-04-08 17:27:46.800669 with level INFO
+2025-04-08 17:27:48 - __main__ - INFO - Starting report generation...
+2025-04-08 17:27:48 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:27:49 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:27:49 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:27:49 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:27:49 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:27:49 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:27:49 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:27:49 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:27:49 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:27:50 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:27:50 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:27:50 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:27:50 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:27:50 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:27:51 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 17:27:51 - src.utils.chart_generator - INFO - Generating velocity chart at 
+2025-04-08 17:27:51 - src.utils.chart_generator - INFO - Generated velocity chart: 
+2025-04-08 17:27:51 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:27:51 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 17:27:51 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:27:51 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:27:51 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:27:51 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:27:51 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:27:51 - src.utils.pdf_generator - INFO - Found 3 images in markdown file
+2025-04-08 17:27:52 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:27:52 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:27:52 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:27:52 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:27:52 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:27:54 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100874/sprint_reports/202504/sprint_report_20250408_ok6oub.pdf
+2025-04-08 17:27:54 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100874/sprint_reports/202504/sprint_report_20250408_ok6oub.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_ok6oub', 'created_at': '2025-04-08T08:27:54Z'}
+2025-04-08 17:27:54 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100874/sprint_reports/202504/sprint_report_20250408_ok6oub.pdf
+2025-04-08 17:27:54 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:27:54 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:28:44 - root - INFO - Logging initialized at 2025-04-08 17:28:44.694565 with level INFO
+2025-04-08 17:28:45 - __main__ - INFO - Starting report generation...
+2025-04-08 17:28:45 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:28:47 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:28:47 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:28:47 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:28:47 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:28:47 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:28:47 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:28:47 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:28:47 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:28:48 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:28:48 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:28:48 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:28:48 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:28:48 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:28:48 - src.utils.report_generator - INFO - Generating sprint report...
+2025-04-08 17:28:48 - src.utils.report_generator - INFO - Generating charts for report...
+2025-04-08 17:28:48 - src.utils.report_generator - INFO - Generating velocity chart...
+2025-04-08 17:28:48 - src.utils.chart_generator - INFO - Generating velocity chart at None
+2025-04-08 17:28:49 - src.utils.chart_generator - ERROR - Error generating velocity chart: 'NoneType' object has no attribute 'write'
+2025-04-08 17:28:49 - src.utils.chart_generator - ERROR - 'NoneType' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/chart_generator.py", line 144, in generate_velocity_chart
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/matplotlib/pyplot.py", line 1243, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/matplotlib/figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2184, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2040, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 481, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/matplotlib/backends/backend_agg.py", line 430, in _print_pil
+    mpl.image.imsave(
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/matplotlib/image.py", line 1644, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/PIL/Image.py", line 2579, in save
+    save_handler(self, fp, filename)
+  File "/Users/admin/Desktop/Web/ai_scrum_master/venv/lib/python3.12/site-packages/PIL/PngImagePlugin.py", line 1375, in _save
+    fp.write(_MAGIC)
+    ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'write'
+2025-04-08 17:28:49 - src.utils.report_generator - INFO - Generating task distribution chart...
+2025-04-08 17:28:49 - src.utils.chart_generator - INFO - Generating task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:28:49 - src.utils.chart_generator - WARNING - Task distribution data is empty
+2025-04-08 17:28:49 - src.utils.report_generator - INFO - Generating Gantt chart...
+2025-04-08 17:28:49 - src.utils.chart_generator - ERROR - Error generating Gantt chart: can't compare offset-naive and offset-aware datetimes
+2025-04-08 17:28:49 - src.utils.chart_generator - ERROR - can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Web/ai_scrum_master/src/utils/chart_generator.py", line 309, in generate_gantt_chart
+    end_date = due_date if due_date and due_date > start_date else start_date + timedelta(days=3)
+                                        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+2025-04-08 17:28:49 - src.utils.report_generator - ERROR - Error generating management action items: 'str' object has no attribute 'get'
+2025-04-08 17:28:49 - src.utils.report_generator - ERROR - Error generating upcoming focus: 'str' object has no attribute 'get'
+2025-04-08 17:28:49 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:28:49 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:28:49 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:28:49 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:28:49 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:28:49 - src.utils.pdf_generator - INFO - Found 0 images in markdown file
+2025-04-08 17:28:49 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:28:50 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100930/sprint_reports/202504/sprint_report_20250408_mrm5pk.pdf
+2025-04-08 17:28:50 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100930/sprint_reports/202504/sprint_report_20250408_mrm5pk.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_mrm5pk', 'created_at': '2025-04-08T08:28:50Z'}
+2025-04-08 17:28:50 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744100930/sprint_reports/202504/sprint_report_20250408_mrm5pk.pdf
+2025-04-08 17:28:50 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:28:50 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:30:17 - root - INFO - Logging initialized at 2025-04-08 17:30:17.908997 with level INFO
+2025-04-08 17:30:19 - __main__ - INFO - Starting report generation...
+2025-04-08 17:30:19 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:30:20 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:30:21 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:30:21 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:30:21 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:30:21 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:30:21 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:30:21 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:30:21 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:30:21 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:30:21 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:30:22 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:30:22 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:30:22 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:30:22 - src.utils.report_generator - INFO - Generating sprint report...
+2025-04-08 17:30:22 - src.utils.report_generator - INFO - Generating charts for report...
+2025-04-08 17:30:22 - src.utils.report_generator - INFO - Generating velocity chart...
+2025-04-08 17:30:22 - src.utils.report_generator - INFO - Generating velocity chart at: reports/velocity_chart.png
+2025-04-08 17:30:22 - src.utils.chart_generator - INFO - Generating velocity chart at reports/velocity_chart.png
+2025-04-08 17:30:22 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 17:30:22 - src.utils.report_generator - INFO - Generating task distribution chart...
+2025-04-08 17:30:22 - src.utils.chart_generator - INFO - Generating task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:30:22 - src.utils.chart_generator - WARNING - Task distribution data is empty
+2025-04-08 17:30:22 - src.utils.report_generator - INFO - Generating Gantt chart...
+2025-04-08 17:30:22 - src.utils.chart_generator - INFO - Generated Gantt chart: reports/gantt_chart.png
+2025-04-08 17:30:22 - src.utils.report_generator - ERROR - Error generating management action items: 'str' object has no attribute 'get'
+2025-04-08 17:30:22 - src.utils.report_generator - ERROR - Error generating upcoming focus: 'str' object has no attribute 'get'
+2025-04-08 17:30:22 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:30:22 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:30:22 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:30:22 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:30:22 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:30:22 - src.utils.pdf_generator - WARNING - Image not found: reports/reports/velocity_chart.png
+2025-04-08 17:30:22 - src.utils.pdf_generator - WARNING - Image not found: reports/reports/gantt_chart.png
+2025-04-08 17:30:22 - src.utils.pdf_generator - INFO - Found 0 images in markdown file
+2025-04-08 17:30:22 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:30:24 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101023/sprint_reports/202504/sprint_report_20250408_l5gbew.pdf
+2025-04-08 17:30:24 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101023/sprint_reports/202504/sprint_report_20250408_l5gbew.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_l5gbew', 'created_at': '2025-04-08T08:30:23Z'}
+2025-04-08 17:30:24 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101023/sprint_reports/202504/sprint_report_20250408_l5gbew.pdf
+2025-04-08 17:30:24 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:30:24 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:31:21 - root - INFO - Logging initialized at 2025-04-08 17:31:21.755499 with level INFO
+2025-04-08 17:31:23 - __main__ - INFO - Starting report generation...
+2025-04-08 17:31:23 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:31:24 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:31:24 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:31:24 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:31:24 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:31:24 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:31:24 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:31:24 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:31:24 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:31:25 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:31:25 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:31:25 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:31:25 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:31:25 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:31:25 - src.utils.report_generator - INFO - Generating sprint report...
+2025-04-08 17:31:25 - src.utils.report_generator - INFO - Generating charts for report...
+2025-04-08 17:31:25 - src.utils.report_generator - INFO - Generating velocity chart...
+2025-04-08 17:31:25 - src.utils.report_generator - INFO - Generating velocity chart at: reports/velocity_chart.png
+2025-04-08 17:31:25 - src.utils.chart_generator - INFO - Generating velocity chart at reports/velocity_chart.png
+2025-04-08 17:31:26 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 17:31:26 - src.utils.report_generator - INFO - Generating task distribution chart...
+2025-04-08 17:31:26 - src.utils.chart_generator - INFO - Generating task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:31:26 - src.utils.chart_generator - WARNING - Task distribution data is empty
+2025-04-08 17:31:26 - src.utils.report_generator - INFO - Generating Gantt chart...
+2025-04-08 17:31:26 - src.utils.chart_generator - INFO - Generated Gantt chart: reports/gantt_chart.png
+2025-04-08 17:31:26 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:31:26 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:31:26 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:31:26 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:31:26 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:31:26 - src.utils.pdf_generator - INFO - Found 2 images in markdown file
+2025-04-08 17:31:27 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:31:29 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101089/sprint_reports/202504/sprint_report_20250408_xropyw.pdf
+2025-04-08 17:31:29 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101089/sprint_reports/202504/sprint_report_20250408_xropyw.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_xropyw', 'created_at': '2025-04-08T08:31:29Z'}
+2025-04-08 17:31:29 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101089/sprint_reports/202504/sprint_report_20250408_xropyw.pdf
+2025-04-08 17:31:29 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:31:29 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:33:42 - root - INFO - Logging initialized at 2025-04-08 17:33:42.697127 with level INFO
+2025-04-08 17:33:44 - __main__ - INFO - Starting report generation...
+2025-04-08 17:33:44 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:33:45 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:33:45 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:33:45 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:33:45 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:33:45 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:33:45 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:33:45 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:33:45 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:33:46 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:33:46 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:33:46 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:33:46 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:33:46 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:33:46 - src.utils.report_generator - INFO - Generating sprint report...
+2025-04-08 17:33:46 - src.utils.report_generator - INFO - Generating charts for report...
+2025-04-08 17:33:46 - src.utils.report_generator - INFO - Generating velocity chart...
+2025-04-08 17:33:46 - src.utils.report_generator - INFO - Generating velocity chart at: reports/velocity_chart.png
+2025-04-08 17:33:46 - src.utils.chart_generator - INFO - Generating velocity chart at reports/velocity_chart.png
+2025-04-08 17:33:47 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 17:33:47 - src.utils.report_generator - INFO - Generating task distribution chart...
+2025-04-08 17:33:47 - src.utils.chart_generator - INFO - Generating task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:33:47 - src.utils.chart_generator - WARNING - Task distribution data is empty
+2025-04-08 17:33:47 - src.utils.report_generator - INFO - Generating Gantt chart...
+2025-04-08 17:33:47 - src.utils.chart_generator - INFO - Generated Gantt chart: reports/gantt_chart.png
+2025-04-08 17:33:47 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:33:47 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:33:47 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:33:47 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:33:47 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:33:47 - src.utils.pdf_generator - INFO - Found 2 images in markdown file
+2025-04-08 17:33:48 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:33:50 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101230/sprint_reports/202504/sprint_report_20250408_parlml.pdf
+2025-04-08 17:33:50 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101230/sprint_reports/202504/sprint_report_20250408_parlml.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_parlml', 'created_at': '2025-04-08T08:33:50Z'}
+2025-04-08 17:33:50 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101230/sprint_reports/202504/sprint_report_20250408_parlml.pdf
+2025-04-08 17:33:50 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:33:50 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:35:21 - root - INFO - Logging initialized at 2025-04-08 17:35:21.400409 with level INFO
+2025-04-08 17:35:24 - __main__ - INFO - Starting report generation...
+2025-04-08 17:35:24 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:35:25 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:35:26 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:35:26 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:35:26 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:35:26 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:35:26 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:35:26 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:35:26 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:35:26 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:35:26 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:35:27 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:35:27 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:35:27 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:35:27 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 17:35:27 - src.utils.chart_generator - INFO - Generating velocity chart at 
+2025-04-08 17:35:27 - src.utils.chart_generator - ERROR - Error generating velocity chart: name 'sprint_name' is not defined
+2025-04-08 17:35:27 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:35:28 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 17:35:28 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:35:28 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:35:28 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:35:28 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:35:28 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:35:28 - src.utils.pdf_generator - INFO - Found 3 images in markdown file
+2025-04-08 17:35:28 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:35:28 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:35:28 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:35:29 - src.utils.pdf_generator - WARNING - Error with custom text wrapping: Not enough horizontal space to render a single character
+2025-04-08 17:35:29 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:35:31 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101330/sprint_reports/202504/sprint_report_20250408_mg96u2.pdf
+2025-04-08 17:35:31 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101330/sprint_reports/202504/sprint_report_20250408_mg96u2.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_mg96u2', 'created_at': '2025-04-08T08:35:30Z'}
+2025-04-08 17:35:31 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101330/sprint_reports/202504/sprint_report_20250408_mg96u2.pdf
+2025-04-08 17:35:31 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:35:31 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:43:33 - root - INFO - Logging initialized at 2025-04-08 17:43:33.779485 with level INFO
+2025-04-08 17:43:35 - __main__ - INFO - Starting report generation...
+2025-04-08 17:43:35 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:43:36 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:43:36 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:43:36 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:43:37 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:43:37 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:43:37 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:43:37 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:43:37 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:43:37 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:43:37 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:43:38 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:43:38 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:43:38 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:43:38 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 17:43:39 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 17:43:39 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:43:39 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 17:43:39 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:43:39 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:43:39 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:43:39 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:43:39 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:43:39 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 17:43:40 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:43:43 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101822/sprint_reports/202504/sprint_report_20250408_ohovte.pdf
+2025-04-08 17:43:43 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101822/sprint_reports/202504/sprint_report_20250408_ohovte.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_ohovte', 'created_at': '2025-04-08T08:43:42Z'}
+2025-04-08 17:43:43 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101822/sprint_reports/202504/sprint_report_20250408_ohovte.pdf
+2025-04-08 17:43:43 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:43:43 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:44:32 - root - INFO - Logging initialized at 2025-04-08 17:44:32.421604 with level INFO
+2025-04-08 17:44:33 - __main__ - INFO - Starting report generation...
+2025-04-08 17:44:33 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:44:34 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:44:35 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:44:35 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:44:35 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:44:35 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:44:35 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:44:35 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:44:35 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:44:35 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:44:35 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:44:36 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:44:36 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:44:36 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:44:36 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 17:44:36 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 17:44:36 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:44:37 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 17:44:37 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:44:37 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:44:37 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:44:37 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:44:37 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:44:37 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 17:44:38 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:44:40 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101880/sprint_reports/202504/sprint_report_20250408_cvw1kw.pdf
+2025-04-08 17:44:40 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101880/sprint_reports/202504/sprint_report_20250408_cvw1kw.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_cvw1kw', 'created_at': '2025-04-08T08:44:40Z'}
+2025-04-08 17:44:40 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744101880/sprint_reports/202504/sprint_report_20250408_cvw1kw.pdf
+2025-04-08 17:44:40 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:44:40 - __main__ - INFO - Report generation completed successfully
+2025-04-08 17:49:20 - root - INFO - Logging initialized at 2025-04-08 17:49:20.600675 with level INFO
+2025-04-08 17:49:21 - __main__ - INFO - Starting report generation...
+2025-04-08 17:49:21 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 17:49:22 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 17:49:23 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:49:23 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:49:23 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 17:49:23 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 17:49:23 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 17:49:23 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 17:49:23 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 17:49:23 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 17:49:24 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 17:49:24 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 17:49:24 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 17:49:24 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 17:49:25 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 17:49:25 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 17:49:25 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 17:49:25 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 17:49:25 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 17:49:25 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:49:25 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 17:49:25 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 17:49:25 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 17:49:25 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 17:49:27 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 17:49:29 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102168/sprint_reports/202504/sprint_report_20250408_d6wcqr.pdf
+2025-04-08 17:49:29 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102168/sprint_reports/202504/sprint_report_20250408_d6wcqr.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_d6wcqr', 'created_at': '2025-04-08T08:49:28Z'}
+2025-04-08 17:49:29 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102168/sprint_reports/202504/sprint_report_20250408_d6wcqr.pdf
+2025-04-08 17:49:29 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 17:49:29 - __main__ - INFO - Report generation completed successfully
+2025-04-08 18:00:56 - root - INFO - Logging initialized at 2025-04-08 18:00:56.367023 with level INFO
+2025-04-08 18:00:57 - __main__ - INFO - Starting report generation...
+2025-04-08 18:00:57 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 18:00:58 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 18:00:59 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 18:00:59 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 18:00:59 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 18:00:59 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 18:00:59 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 18:00:59 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 18:00:59 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 18:00:59 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 18:01:00 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 18:01:00 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 18:01:00 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 18:01:00 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 18:01:01 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 18:01:01 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 18:01:01 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 18:01:01 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 18:01:01 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 18:01:01 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 18:01:01 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 18:01:01 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 18:01:01 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 18:01:01 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 18:01:03 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 18:01:05 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102864/sprint_reports/202504/sprint_report_20250408_hnlwbp.pdf
+2025-04-08 18:01:05 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102864/sprint_reports/202504/sprint_report_20250408_hnlwbp.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_hnlwbp', 'created_at': '2025-04-08T09:01:04Z'}
+2025-04-08 18:01:05 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102864/sprint_reports/202504/sprint_report_20250408_hnlwbp.pdf
+2025-04-08 18:01:05 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 18:01:05 - __main__ - INFO - Report generation completed successfully
+2025-04-08 18:01:24 - root - INFO - Logging initialized at 2025-04-08 18:01:24.425214 with level INFO
+2025-04-08 18:01:25 - __main__ - INFO - Starting report generation...
+2025-04-08 18:01:25 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 18:01:26 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 18:01:27 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 18:01:27 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 18:01:27 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 18:01:27 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 18:01:27 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 18:01:27 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 18:01:27 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 18:01:28 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 18:01:28 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 18:01:28 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 18:01:28 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 18:01:28 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 18:01:29 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 18:01:29 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 18:01:29 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 18:01:29 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 18:01:29 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 18:01:29 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 18:01:29 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 18:01:29 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 18:01:29 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 18:01:29 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 18:01:31 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 18:01:33 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102892/sprint_reports/202504/sprint_report_20250408_su2uzs.pdf
+2025-04-08 18:01:33 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102892/sprint_reports/202504/sprint_report_20250408_su2uzs.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_su2uzs', 'created_at': '2025-04-08T09:01:32Z'}
+2025-04-08 18:01:33 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102892/sprint_reports/202504/sprint_report_20250408_su2uzs.pdf
+2025-04-08 18:01:33 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 18:01:33 - __main__ - INFO - Report generation completed successfully
+2025-04-08 18:02:13 - root - INFO - Logging initialized at 2025-04-08 18:02:13.623451 with level INFO
+2025-04-08 18:02:14 - __main__ - INFO - Starting report generation...
+2025-04-08 18:02:14 - src.crew.scrum_master_crew - INFO - Initializing ScrumMasterCrew
+2025-04-08 18:02:16 - src.agents.analysis_agent - INFO - Initialized AnalysisAgent
+2025-04-08 18:02:16 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 18:02:16 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 18:02:16 - src.utils.slack_utils - INFO - Slack client initialized successfully with secure SSL configuration
+2025-04-08 18:02:16 - src.utils.chart_generator - INFO - Initialized ChartGenerator with output directory: reports
+2025-04-08 18:02:16 - src.utils.report_generator - INFO - Initialized ReportGenerator with output directory: reports
+2025-04-08 18:02:16 - src.crew.scrum_master_crew - INFO - Initialized ScrumMasterCrew with Board ID: 67eceb7a2d77596fee759d18
+2025-04-08 18:02:16 - src.crew.scrum_master_crew - INFO - Starting Scrum Master AI Agent
+2025-04-08 18:02:17 - src.utils.trello_tools - INFO - Successfully fetched 23 cards
+2025-04-08 18:02:17 - src.utils.trello_tools - INFO - Successfully fetched 6 lists
+2025-04-08 18:02:17 - src.utils.trello_tools - INFO - Successfully fetched 3 members
+2025-04-08 18:02:17 - src.agents.analysis_agent - INFO - Analyzing sprint data for insights
+2025-04-08 18:02:17 - src.agents.analysis_agent - INFO - Analysis completed: 18 data points calculated
+2025-04-08 18:02:18 - src.utils.report_generator - INFO - Generated burndown chart at reports/burndown_chart.png
+2025-04-08 18:02:18 - src.utils.chart_generator - INFO - Generated velocity chart: reports/velocity_chart.png
+2025-04-08 18:02:18 - src.utils.report_generator - INFO - Generated task distribution chart at reports/task_distribution_chart.png
+2025-04-08 18:02:18 - src.utils.report_generator - INFO - Generated Gantt chart at reports/gantt_chart.png
+2025-04-08 18:02:18 - src.utils.report_generator - INFO - Generated report at reports/sprint_report_20250408.md
+2025-04-08 18:02:18 - src.crew.scrum_master_crew - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 18:02:18 - src.utils.pdf_generator - INFO - Initialized PDFReportGenerator with output directory: reports
+2025-04-08 18:02:18 - src.utils.pdf_generator - INFO - Cloudinary configuration initialized
+2025-04-08 18:02:18 - src.agents.report_pdf_agent - INFO - Initialized ReportPDFAgent
+2025-04-08 18:02:18 - src.utils.pdf_generator - INFO - Found 4 images in markdown file
+2025-04-08 18:02:20 - src.utils.pdf_generator - INFO - PDF generated successfully: reports/sprint_report_20250408.pdf
+2025-04-08 18:02:22 - src.utils.pdf_generator - INFO - File uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102941/sprint_reports/202504/sprint_report_20250408_rmyi5p.pdf
+2025-04-08 18:02:22 - src.agents.report_pdf_agent - INFO - Report processing result: {'markdown_path': 'reports/sprint_report_20250408.md', 'success': True, 'pdf_path': 'reports/sprint_report_20250408.pdf', 'cloudinary_url': 'https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102941/sprint_reports/202504/sprint_report_20250408_rmyi5p.pdf', 'cloudinary_public_id': 'sprint_reports/202504/sprint_report_20250408_rmyi5p', 'created_at': '2025-04-08T09:02:21Z'}
+2025-04-08 18:02:22 - __main__ - INFO - PDF report uploaded to Cloudinary: https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102941/sprint_reports/202504/sprint_report_20250408_rmyi5p.pdf
+2025-04-08 18:02:22 - __main__ - INFO - Successfully generated report at reports/sprint_report_20250408.md
+2025-04-08 18:02:22 - __main__ - INFO - Report generation completed successfully

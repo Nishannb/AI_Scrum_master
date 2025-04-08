@@ -64,13 +64,16 @@ class ScrumMasterCrew:
         
         # Initialize agents
         self.analysis_agent = AnalysisAgent(
-            trello_tools=self.trello_tools,
-            verbose=verbose,
-            llm=self.llm
+            name="Sprint Analysis Specialist",
+            port=8002,
+            endpoint=["http://127.0.0.1:8002/submit"],
+            mailbox=True
         )
         self.reporting_agent = ReportingAgent(
-            verbose=verbose,
-            llm=self.llm
+            name="Report Generation Specialist",
+            port=8003,
+            endpoint=["http://127.0.0.1:8003/submit"],
+            mailbox=True
         )
         
         # Initialize report generator

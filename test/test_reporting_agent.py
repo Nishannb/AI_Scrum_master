@@ -29,7 +29,7 @@ def create_sample_data():
     members = [
         {"id": "member1", "fullName": "Nishan Baral", "username": "nishanbaral"},
         {"id": "member2", "fullName": "adamsnb34", "username": "adamsnb34"},
-        {"id": "member3", "fullName": "baralnishan987", "username": "baralnishan987"}
+        {"id": "member3", "fullName": "All Nissan", "username": "baralnishan987"}
     ]
     
     # Create cards data - include both list title cards and task cards
