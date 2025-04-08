@@ -220,6 +220,18 @@ class ReportingAgent(Agent):
                 "markdown_path": markdown_path,
                 "pdf_path": pdf_path,
                 "cloudinary_url": cloudinary_url,
+                # Add top-level metrics for easier access by the Slack notifier
+                "completion_rate": report_data.get("completion_rate", 0),
+                "total_tasks": report_data.get("total_tasks", 0),
+                "completed_tasks": report_data.get("completed_tasks", 0),
+                "remaining_tasks": report_data.get("total_tasks", 0) - report_data.get("completed_tasks", 0),
+                "velocity": report_data.get("velocity", 0),
+                "sprint_name": report_data.get("sprint_name", "Current Sprint"),
+                "blockers": report_data.get("blockers", []),
+                "overdue_tasks": report_data.get("overdue_tasks", []),
+                "approaching_deadlines": report_data.get("approaching_deadlines", []),
+                "risks": report_data.get("risks", []),
+                "status_counts": report_data.get("status_counts", {}),
                 "report": {
                     "title": os.path.basename(markdown_path).replace(".md", ""),
                     "pdf_path": pdf_path,
@@ -243,6 +255,19 @@ class ReportingAgent(Agent):
                 self._logger.info("Sending notification to Slack...")
                 try:
                     slack_notifier = SlackNotifier()
+                    
+                    # Add detailed debug logging for report structure
+                    print("\n=== SLACK NOTIFICATION DATA (FROM REPORTING AGENT) ===")
+                    print(f"Report data structure keys: {list(report_result.keys())}")
+                    print(f"Report path: {report_result.get('markdown_path')}")
+                    print(f"Cloudinary URL: {report_result.get('cloudinary_url')}")
+                    print(f"Total tasks: {report_result.get('total_tasks')}")
+                    print(f"Completed tasks: {report_result.get('completed_tasks')}")
+                    print(f"Overdue tasks: {len(report_result.get('overdue_tasks', []))}")
+                    print(f"Blockers: {len(report_result.get('blockers', []))}")
+                    print(f"Status counts: {report_result.get('status_counts', {})}")
+                    print("=== END DEBUG DATA ===\n")
+                    
                     self._logger.debug(f"Report result for Slack: {report_result}")
                     slack_success = slack_notifier.notify_report_completion(report_result)
                     
@@ -370,6 +395,17 @@ class ReportingAgent(Agent):
                 else:
                     status_counts[list_name] = 1
             
+            # Debug log the status counts
+            self._logger.info(f"Status counts for task distribution: {status_counts}")
+            self._logger.info(f"Total tasks: {total_tasks}, Completed tasks: {completed_tasks}")
+            
+            # DEBUGGING - Add print statements that will show in terminal output
+            print("\n=== DEBUGGING CHART DATA ===")
+            print(f"Status counts: {status_counts}")
+            print(f"Total tasks: {total_tasks}, Completed tasks: {completed_tasks}")
+            print(f"Completion rate: {completion_rate}")
+            print("===========================\n")
+            
             # Define overdue_tasks before using it
             overdue_tasks = []
             
@@ -383,7 +419,11 @@ class ReportingAgent(Agent):
                 "completion_rate": completion_rate
             }
             
+            self._logger.info(f"Burndown data being sent to chart generator: {burndown_data}")
+            print(f"Burndown data: {burndown_data}")
+            
             # Generate burndown chart
+            print("Aaba Generating burndown chart with: ", burndown_data);
             burndown_chart = chart_generator.generate_burndown_chart(
                 burndown_data,
                 sprint_name=sprint_name
@@ -393,24 +433,32 @@ class ReportingAgent(Agent):
             velocity_chart_data = {
                 "current": velocity,
                 "historical": [
-                    {"sprint": "Sprint 1", "velocity": velocity * 0.9},
-                    {"sprint": "Sprint 2", "velocity": velocity * 0.95},
-                    {"sprint": "Sprint 3", "velocity": velocity * 0.98}
+                    # {"sprint": "Sprint 1", "velocity": velocity * 0.9},
+                    # {"sprint": "Sprint 2", "velocity": velocity * 0.95},
+                    # {"sprint": "Sprint 3", "velocity": velocity * 0.98}
                 ]
             }
             
+            self._logger.info(f"Velocity data being sent to chart generator: current={velocity}")
+            print(f"Velocity data: current={velocity}")
+            
             # Generate velocity chart
+            
             velocity_chart = chart_generator.generate_velocity_chart(
                 velocity_chart_data,
                 sprint_name=sprint_name
             )
             
             # Prepare task distribution data
+            print("Aaba Generating task disribution chart with: ", status_counts);
             task_distribution_data = {
                 "statuses": status_counts,
                 "total_tasks": total_tasks,
                 "completion_rate": completion_rate
             }
+            
+            self._logger.info(f"Task distribution data being sent to chart generator: {task_distribution_data}")
+            print(f"Task distribution data: {task_distribution_data}")
             
             # Generate task distribution chart
             distribution_chart = chart_generator.generate_task_distribution_chart(
@@ -440,7 +488,7 @@ class ReportingAgent(Agent):
             sections = []
             
             # Title
-            sections.append(f"# Sprint Report: {sprint_name}")
+            sections.append(f"# Scrum Report: {sprint_name}")
             sections.append(f"*Generated on {datetime.now().strftime('%Y-%m-%d %H:%M')}*\n")
             
             # Executive Summary

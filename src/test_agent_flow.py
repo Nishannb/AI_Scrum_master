@@ -30,9 +30,9 @@ async def test_agent_flow():
     # Initialize test agent with proper endpoint configuration
     test_agent = Agent(
         name="Test Agent",
-        port=8005,  # Changed from 8004 to 8005 to avoid conflicts
+        port=8006,  # Changed from 8005 to 8006 to avoid conflicts
         seed="test_agent_seed",
-        endpoint=["http://127.0.0.1:8005/submit"],
+        endpoint=["http://127.0.0.1:8006/submit"],
         mailbox=True
     )
     

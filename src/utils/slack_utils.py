@@ -109,172 +109,286 @@ class SlackNotifier:
         
         return sections
         
-    def notify_report_completion(self, report_data: Dict[str, Any]) -> bool:
+    def notify_report_completion(self, result: Dict[str, Any]) -> bool:
         """
-        Send a notification to Slack about the completed sprint report.
+        Notify about report completion via Slack.
         
         Args:
-            report_data: Dictionary containing report details and metrics
+            result: Dictionary with report generation results
             
         Returns:
-            bool: Whether the notification was sent successfully
+            bool: True if notification was sent successfully, False otherwise
         """
         try:
-            logger.debug(f"Received report data: {report_data}")
-            metrics = report_data.get("report", {}).get("metrics", {})
-            logger.debug(f"Extracted metrics: {metrics}")
-            sprint_name = metrics.get("sprint_name", "Current Sprint")
-            cloudinary_url = report_data.get("cloudinary_url", "")
+            # DEBUG: Print full result structure
+            print("\n=== SLACK NOTIFICATION DATA ===")
+            if 'report' in result:
+                print("Report structure found in result")
+                if 'metrics' in result['report']:
+                    print("Metrics found in report structure")
+                    print(f"Metrics keys: {result['report']['metrics'].keys()}")
+            else:
+                print("No report structure found, using top level")
+            print("===========================\n")
             
-            # Format completion rate and status
-            completion_rate = metrics.get("completion_rate", 0)
-            logger.debug(f"Completion rate: {completion_rate}")
-            completion_status = (
-                "🔴 Critical - Needs immediate attention" if completion_rate < 0.3 else 
-                "🟠 Warning - Below target" if completion_rate < 0.5 else 
-                "✅ On Track - Keep up the good work!"
-            )
+            # Extract key metrics from the result structure
+            # First try to access the nested 'report' structure if it exists
+            if 'report' in result and 'metrics' in result['report']:
+                metrics = result['report']['metrics']
+                completion_rate = metrics.get('completion_rate', 0)
+                total_tasks = metrics.get('total_tasks', 0)
+                completed_tasks = metrics.get('completed_tasks', 0)
+                remaining_tasks = total_tasks - completed_tasks
+                blockers = metrics.get('blockers', [])
+                overdue_tasks = metrics.get('overdue_tasks', [])
+                risks = metrics.get('risks', [])
+                status_counts = metrics.get('status_counts', {})
+                sprint_name = metrics.get('sprint_name', "Current Sprint")
+            else:
+                # Fallback to the top-level structure
+                completion_rate = result.get('completion_rate', 0)
+                total_tasks = result.get('total_tasks', 0)
+                completed_tasks = result.get('completed_tasks', 0)
+                remaining_tasks = total_tasks - completed_tasks
+                blockers = result.get('blockers', [])
+                overdue_tasks = result.get('overdue_tasks', [])
+                risks = result.get('risks', [])
+                status_counts = result.get('status_counts', {})
+                sprint_name = result.get('sprint_name', "Current Sprint")
+
+            # Get cloudinary URL from the result
+            cloudinary_url = result.get('cloudinary_url', 'Not available')
             
-            # Format velocity status
-            velocity = metrics.get("velocity", 0)
-            velocity_status = (
-                "🔴 Below Target - Action needed" if velocity < 20 else 
-                "🟡 Near Target - Keep pushing" if velocity < 30 else 
-                "✅ On Target - Great pace!"
-            )
-            
-            # Format blockers status
-            blockers = metrics.get("blockers", [])
-            blocker_status = (
-                f"🚫 {len(blockers)} Active blockers need attention" if blockers else 
-                "✅ No active blockers - Clear path ahead!"
-            )
-            
-            # Create message blocks
-            blocks = [
-                {
-                    "type": "header",
-                    "text": {
-                        "type": "plain_text",
-                        "text": f"📊 Sprint Report: {sprint_name}",
-                        "emoji": True
+            # Format the message
+            message = {
+                "blocks": [
+                    {
+                        "type": "header",
+                        "text": {
+                            "type": "plain_text",
+                            "text": "📊 Scrum Report Available",
+                            "emoji": True
+                        }
+                    },
+                    {
+                        "type": "section",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": f"The sprint report for *{sprint_name}* has been generated and is ready for review.\n\n*<{cloudinary_url}|View Full Report>*"
+                        }
+                    },
+                    {
+                        "type": "divider"
+                    },
+                    {
+                        "type": "section",
+                        "text": {
+                            "type": "mrkdwn",
+                            "text": "*Executive Summary*\n"
+                                f"• Completion Rate: {completion_rate:.1%}\n"
+                                f"• Total Tasks: {total_tasks}\n"
+                                f"• Completed Tasks: {completed_tasks}\n"
+                                f"• Remaining Tasks: {remaining_tasks}"
+                        }
+                    },
+                    {
+                        "type": "divider"
                     }
-                },
-                {
+                ]
+            }
+            
+            # Add current risks section
+            risks_blocks = []
+            
+            # Add completion rate risk if low
+            if completion_rate < 0.3:
+                risk_impact = "Sprint goals may not be met by the end of the sprint"
+                tasks_affecting = []
+                
+                # Include at most 3 non-completed tasks
+                non_completed_tasks = []
+                if isinstance(overdue_tasks, list):
+                    for task in overdue_tasks[:3]:
+                        if isinstance(task, dict):
+                            non_completed_tasks.append(task.get("title", task.get("name", "Unknown task")))
+                
+                risk_detail = "*Completion Rate (high)*: Low sprint completion rate" + f" ({completion_rate:.1%})\n"
+                risk_detail += f" • Impact: {risk_impact}\n"
+                if non_completed_tasks:
+                    risk_detail += f" • Tasks affecting completion rate: {', '.join(non_completed_tasks)}."
+                
+                risks_blocks.append({
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": f"*Report generated on {datetime.now().strftime('%B %d, %Y at %I:%M %p')}*"
+                        "text": risk_detail
                     }
-                },
-                {
-                    "type": "divider"
-                },
-                {
-                    "type": "section",
-                    "text": {
-                        "type": "mrkdwn",
-                        "text": "*Sprint Status Overview*\n" +
-                               f"• Sprint Progress: {completion_rate:.1%} completed ({completion_status})\n" +
-                               f"• Team Velocity: {velocity:.1f} points ({velocity_status})\n" +
-                               f"• Blockers: {blocker_status}"
-                    }
-                },
-                {
-                    "type": "divider"
-                },
-                {
-                    "type": "section",
-                    "text": {
-                        "type": "mrkdwn",
-                        "text": "*Task Progress*\n" +
-                               f"• Completed Tasks: {metrics.get('completed_tasks', 0)} of {metrics.get('total_tasks', 0)}\n" +
-                               f"• Remaining Work: {metrics.get('total_tasks', 0) - metrics.get('completed_tasks', 0)} tasks to be completed\n" +
-                               f"• Identified Risks: {len(metrics.get('risks', []))} potential risks to monitor"
-                    }
-                }
-            ]
+                })
             
-            # Add critical blockers section if any exist
+            # Add blockers risk if any
             if blockers:
-                blocker_text = "*Critical Blockers - Action Required*\n"
-                for blocker in blockers[:3]:  # Show top 3 blockers
-                    blocker_text += f"• 🚫 {blocker.get('name', 'Unknown')}\n"
-                if len(blockers) > 3:
-                    blocker_text += f"_(+{len(blockers) - 3} more blockers need attention...)_"
+                blocker_names = []
+                for b in blockers[:3]:  # Show top 3 blockers
+                    if isinstance(b, dict):
+                        blocker_names.append(b.get("title", b.get("name", "Unknown blocker")))
+                    elif isinstance(b, str):
+                        blocker_names.append(b)
                 
-                blocks.extend([
-                    {
-                        "type": "divider"
-                    },
-                    {
-                        "type": "section",
-                        "text": {
-                            "type": "mrkdwn",
-                            "text": blocker_text
-                        }
+                risks_blocks.append({
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": f"*Blockers (high)*: {len(blockers)} blockers identified in the sprint\n"
+                            f" • Impact: Blocking issues are preventing team progress\n"
+                            + (f" • Blockers: {', '.join(blocker_names)}." if blocker_names else "")
                     }
-                ])
+                })
             
-            # Add overdue tasks section if any exist
-            overdue_tasks = metrics.get("overdue_tasks", [])
+            # Add approaching deadlines risk
+            approaching_deadlines = result.get('approaching_deadlines', [])
+            if approaching_deadlines:
+                deadline_names = []
+                for d in approaching_deadlines[:3]:  # Show top 3 approaching deadlines
+                    if isinstance(d, dict):
+                        deadline_names.append(d.get("title", d.get("name", "Unknown task")))
+                    elif isinstance(d, str):
+                        deadline_names.append(d)
+                
+                risks_blocks.append({
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": f"*Approaching Deadlines (medium)*: {len(approaching_deadlines)} tasks with approaching deadlines\n"
+                            f" • Impact: Tasks may not be completed by their due dates\n"
+                            + (f" • Critical deadlines: {', '.join(deadline_names)}." if deadline_names else "")
+                    }
+                })
+            
+            # Add overdue tasks risk
             if overdue_tasks:
-                overdue_text = "*Overdue Tasks - Needs Attention*\n"
-                for task in overdue_tasks[:3]:  # Show top 3 overdue tasks
-                    task_name = task.get('name', 'Unknown')
-                    days_overdue = task.get('days_overdue', 0)
-                    list_name = task.get('list', 'Unknown')
-                    overdue_text += f"• ⚠️ {task_name}\n   _(Overdue by {days_overdue} days - Currently in {list_name})_\n"
-                if len(overdue_tasks) > 3:
-                    overdue_text += f"_(+{len(overdue_tasks) - 3} more overdue tasks...)_"
+                overdue_names = []
+                for t in overdue_tasks[:3]:  # Show top 3 overdue tasks
+                    if isinstance(t, dict):
+                        overdue_names.append(t.get("title", t.get("name", "Unknown task")))
+                    elif isinstance(t, str):
+                        overdue_names.append(t)
                 
-                blocks.extend([
-                    {
-                        "type": "divider"
-                    },
-                    {
-                        "type": "section",
-                        "text": {
-                            "type": "mrkdwn",
-                            "text": overdue_text
-                        }
+                risks_blocks.append({
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": f"*Overdue (medium)*: {len(overdue_tasks)} overdue tasks\n"
+                            f" • Impact: Tasks have already missed their deadlines\n"
+                            + (f" • Overdue tasks: {', '.join(overdue_names)}." if overdue_names else "")
                     }
-                ])
+                })
             
-            # Add report link
-            if cloudinary_url:
-                blocks.extend([
-                    {
-                        "type": "divider"
-                    },
-                    {
-                        "type": "section",
-                        "text": {
-                            "type": "mrkdwn",
-                            "text": "📑 *View Detailed Report*"
-                        }
-                    },
-                    {
-                        "type": "section",
-                        "text": {
-                            "type": "mrkdwn",
-                            "text": f"<{cloudinary_url}|Click here to view the complete sprint report with charts and detailed analysis>"
-                        }
+            # Add the risks section if any risks were found
+            if risks_blocks:
+                message["blocks"].append({
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": "*Current Risks*"
                     }
-                ])
+                })
+                message["blocks"].extend(risks_blocks)
+                message["blocks"].append({"type": "divider"})
+            
+            # Add detailed overdue tasks section if there are any
+            if overdue_tasks:
+                message["blocks"].append({
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": "*Overdue Tasks*"
+                    }
+                })
+                
+                for task in overdue_tasks[:5]:  # Limit to top 5 overdue tasks
+                    if isinstance(task, dict):
+                        task_name = task.get("title", task.get("name", "Unknown task"))
+                        due_date = task.get("due_date", task.get("due", "Unknown"))
+                        days_overdue = task.get("days_overdue", 1)  # Default to 1 day if not specified
+                        assigned_to = task.get("assigned_to", "Unassigned")
+                        status = task.get("status", "Unknown")
+                        
+                        message["blocks"].append({
+                            "type": "section",
+                            "text": {
+                                "type": "mrkdwn",
+                                "text": f"• :warning: *{task_name}* - {days_overdue} days overdue (Assigned to: {assigned_to})\n"
+                                    f" • Current status: {status}\n"
+                                    f" • Due date: {due_date}"
+                            }
+                        })
+                
+                message["blocks"].append({"type": "divider"})
+            
+            # Add customized goals section based on the actual data
+            goal_text = "*Goals Until Next Sprint Meeting*\n"
+            goal_text += "Based on the analysis above, the team should focus on the following specific action items before the next sprint meeting:\n"
+            
+            goals = []
+            
+            # Add overdue tasks goal if any
+            if overdue_tasks:
+                overdue_names = []
+                for t in overdue_tasks[:2]:  # Show top 2 overdue tasks in goal
+                    if isinstance(t, dict):
+                        overdue_names.append(t.get("title", t.get("name", "Unknown task")))
+                    elif isinstance(t, str):
+                        overdue_names.append(t)
+                
+                if overdue_names:
+                    goals.append(f"1. URGENT: Complete overdue tasks ()\n  • Focus on: {', '.join(overdue_names)}.")
+            
+            # Add blocker resolution goal if any
+            if blockers:
+                goals.append(f"2. Address {len(blockers)} blockers to unblock progress")
+            
+            # Add bottleneck goal based on status counts
+            if status_counts:
+                # Find the list with the most tasks (potential bottleneck)
+                bottleneck = max(status_counts.items(), key=lambda x: x[1], default=("", 0))
+                if bottleneck[1] > 0:
+                    goals.append(f"3. Clear bottleneck in {bottleneck[0]}\n  • Focus on: {bottleneck[0]}, prioritize critical tasks")
+            
+            # Add tracking goal
+            goals.append("4. Track daily progress\n  • Hold daily stand-ups to review progress on critical tasks\n  • Update Trello board with current status and blockers\n  • Escalate any new blockers immediately")
+            
+            # Add scope adjustment goal if completion rate is low
+            if completion_rate < 0.4:
+                goals.append("5. Prepare for potential scope adjustment\n  • Identify tasks that may need to be moved to next sprint\n  • Prioritize remaining work for current sprint completion")
+            
+            # Number goals properly
+            for i, goal in enumerate(goals):
+                if i == 0:
+                    # First goal already has a number
+                    continue
+                goal_number = str(i + 1)
+                goals[i] = goal.replace(f"{i + 1}. ", f"{goal_number}. ")
+            
+            goal_text += "\n".join(goals)
+            
+            message["blocks"].append({
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": goal_text
+                }
+            })
             
             # Send the message
             response = self.client.chat_postMessage(
                 channel=self.default_channel,
-                blocks=blocks,
-                text=f"Sprint Report for {sprint_name} is ready!"  # Fallback text
+                blocks=message["blocks"]
             )
             
-            self.logger.info(f"Sent Slack notification to channel {self.default_channel}")
             return response["ok"]
             
         except Exception as e:
-            self.logger.error(f"Error sending Slack notification: {e}")
+            logger.error(f"Error sending Slack notification: {e}")
             return False
 
     def send_message(self, 

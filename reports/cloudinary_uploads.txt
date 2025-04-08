@@ -4,3 +4,6 @@
 2025-04-07T08:11:09.130967+00:00: reports/sprint_report__20250407_171105.pdf -> https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744013468/sprint_reports/202504/sprint_report__20250407_171105_zt9llr.pdf
 2025-04-07T08:33:43.735704+00:00: reports/sprint_report__20250407_173339.pdf -> https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744014823/sprint_reports/202504/sprint_report__20250407_173339_qumt45.pdf
 2025-04-07T11:50:56.806945+00:00: reports/sprint_report__20250407_205052.pdf -> https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744026656/sprint_reports/202504/sprint_report__20250407_205052_gzum2w.pdf
+2025-04-08T03:38:58.950297+00:00: reports/sprint_report__20250408_123857.pdf -> https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744083538/sprint_reports/202504/sprint_report__20250408_123857_yszyns.pdf
+2025-04-08T08:50:51.985520+00:00: reports/sprint_report__20250408_175048.pdf -> https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744102251/sprint_reports/202504/sprint_report__20250408_175048_cug7ui.pdf
+2025-04-08T09:07:45.066402+00:00: reports/sprint_report__20250408_180741.pdf -> https://res.cloudinary.com/dcdyuv5oz/image/upload/v1744103264/sprint_reports/202504/sprint_report__20250408_180741_n9lyej.pdf
