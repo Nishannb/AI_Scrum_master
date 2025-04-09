@@ -18,7 +18,7 @@ from src.models.messages import (
     ReportRequest, ReportResponse
 )
 from src.config.agentverse import get_agentverse_config
-from fetchai.registration import register_with_agentverse
+# from fetchai.registration import register_with_agentverse
 import json
 import os
 import asyncio
